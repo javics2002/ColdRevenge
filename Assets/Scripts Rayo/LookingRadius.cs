@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class LookingRadius : MonoBehaviour
 {
@@ -29,6 +30,10 @@ public class LookingRadius : MonoBehaviour
                 if (look != null && look.isBeingLooked())
                 {
                     uiText.SetText(go.name);
+                    if (Input.GetKeyDown(KeyCode.E))
+                    {
+                        print("E");
+                    }
                 }
                 else{
                     uiText.SetText("");

@@ -18,7 +18,6 @@ public class LookAtObject : MonoBehaviour
     {
         looked = false;
     }
-
     private void OnMouseOver()
     {
         looked = true;
