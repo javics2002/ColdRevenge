@@ -7,12 +7,12 @@ public class HeadTree : MonoBehaviour
     public enum nodos
     {
         FOTO_LAGO, AGUJA, HILO, LLAVES, HUECO, MARK, PERIODICO, VENENO, HILO1,
-        CAFE, SONMIFERO, FOTO_EMPRESARIAL, CARTA, INFORME, PINCHAZO, TYLOR, MINERVA,
+        CAFE, SONMIFERO, FOTO_EMPRESARIAL, CARTA, INFORME, PINCHAZO, TAYLOR, MINERVA,
         BANCARROTA, CITA, DENUNCIA, LIBROS, POMO, CAUSA_MUERTE, DORMIDO, METODO,
         RADIO, CARA, GRITO, MOMENTO, COARTADA_MINERVA, FRANK, FINAL, SUICIDIO,
         MUERTE, HILOS, METODO2, HILO_USADO, MOTIVO_MARK, HERMANO, PUERTA, PESCA,
         WILLIAM, FINAL2, LLAVES_USADAS, ROBO, METODO_TAYLOR, CUELLO, FINAL3,
-        VISITA,
+        VISITA, CENA, NULL;
     }
 
 
@@ -86,6 +86,28 @@ public class HeadTree : MonoBehaviour
 
         nodosD[nodos.COARTADA_MINERVA] = new familia { pareja = nodos.SUICIDIO, padre = nodos.FINAL };
         nodosD[nodos.SUICIDIO] = new familia { pareja = nodos.COARTADA_MINERVA, padre = nodos.FINAL };
+
+        nodosD[nodos.CITA] = new familia { pareja = nodos.TAYLOR, padre = nodos.VISITA };
+        nodosD[nodos.TAYLOR] = new familia { pareja = nodos.CITA, padre = nodos.VISITA };
+
+        nodosD[nodos.TAYLOR] = new familia { pareja = nodos.DENUNCIA, padre = nodos.ROBO };
+        nodosD[nodos.DENUNCIA] = new familia { pareja = nodos.TAYLOR, padre = nodos.ROBO };
+
+        nodosD[nodos.VISITA] = new familia { pareja = nodos.ROBO, padre = nodos.METODO_TAYLOR };
+        nodosD[nodos.ROBO] = new familia { pareja = nodos.VISITA, padre = nodos.METODO_TAYLOR };
+
+        nodosD[nodos.METODO_TAYLOR] = new familia { pareja = nodos.CARTA, padre = nodos.FINAL3 };
+        nodosD[nodos.CARTA = new familia { pareja = nodos.METODO_TAYLOR, padre = nodos.FINAL3 };
+
+        nodosD[nodos.CENA] = new familia { pareja = nodos.NULL, padre = nodos.NULL };
+
+        nodosD[nodos.FINAL] = new familia { pareja = nodos.NULL, padre = nodos.NULL };
+
+        nodosD[nodos.FINAL2] = new familia { pareja = nodos.NULL, padre = nodos.NULL };
+
+        nodosD[nodos.FINAL3] = new familia { pareja = nodos.NULL, padre = nodos.NULL };
+
+
     }
 
     // Update is called once per frame
