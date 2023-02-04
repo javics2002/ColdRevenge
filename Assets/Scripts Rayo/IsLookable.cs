@@ -11,25 +11,36 @@ using System.Net;
 
 public class IsLookable : MonoBehaviour
 {
-    bool looked;
+    bool mouseOver;
+    bool beingLooked;
     // Start is called before the first frame update
     void Start()
     {
-        looked = false;
+        mouseOver = false;
+        beingLooked = false;
     }
     private void OnMouseOver()
     {
-        looked = true;
+        mouseOver = true;
     }
 
     private void OnMouseExit()
     {
-        looked = false;
+        mouseOver = false;
+    }
+
+    public bool isMouseOver()
+    {
+        return mouseOver;
     }
 
     public bool isBeingLooked()
     {
-        return looked;
+        return beingLooked;
+    }
+    public void setLooked(bool newLook)
+    {
+        beingLooked = newLook;
     }
 
 }

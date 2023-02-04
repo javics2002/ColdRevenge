@@ -69,13 +69,15 @@ public class LookAtObject : MonoBehaviour
                 if (go != null)
                 {
                     IsLookable look = go.GetComponent<IsLookable>();
-                    if (look != null && look.isBeingLooked())
+                    if (look != null && look.isMouseOver())
                     {
                         uiText.SetText(go.name);
                         if (Input.GetKeyDown(KeyCode.E))
                         {
                             focusingObject = true;
                             focusGameObject = go;
+
+                            look.setLooked(true);
 
                             objectOrigPosition = new Vector3(focusGameObject.transform.position.x, focusGameObject.transform.position.y, focusGameObject.transform.position.z);
                             objectOrigRotation = new Quaternion(focusGameObject.transform.rotation.x, focusGameObject.transform.rotation.y, focusGameObject.transform.rotation.z, focusGameObject.transform.rotation.w);
@@ -99,10 +101,10 @@ public class LookAtObject : MonoBehaviour
 
             if (playerController != null && playerRigidbody != null)
             {
+                playerController.DeativateCrosshair();
+
                 playerController.enabled = false;
                 playerRigidbody.velocity = Vector3.zero;
-
-
             }
 
             // Mostrar el cursor
@@ -132,10 +134,19 @@ public class LookAtObject : MonoBehaviour
                 UnityEngine.Cursor.visible = false;
                 UnityEngine.Cursor.lockState = CursorLockMode.Locked;
 
+                focusGameObject.GetComponent<IsLookable>().setLooked(false);
+
                 // Activamos playercontroller
                 playerController.enabled = true;
+
+                playerController.ActivateCrosshair();
             }
         }
+    }
+
+    public bool isFocusingObject()
+    {
+        return focusingObject;
     }
 
     private void OnTriggerEnter(Collider other)
