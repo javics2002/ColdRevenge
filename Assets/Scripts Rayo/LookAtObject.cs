@@ -79,6 +79,9 @@ public class LookAtObject : MonoBehaviour
 
                             look.setLooked(true);
 
+                            ObjectInfo objectInfo = focusGameObject.GetComponent<ObjectInfo>();
+                            objectInfo.TriggerObjectInfo();
+
                             objectOrigPosition = new Vector3(focusGameObject.transform.position.x, focusGameObject.transform.position.y, focusGameObject.transform.position.z);
                             objectOrigRotation = new Quaternion(focusGameObject.transform.rotation.x, focusGameObject.transform.rotation.y, focusGameObject.transform.rotation.z, focusGameObject.transform.rotation.w);
                         }
