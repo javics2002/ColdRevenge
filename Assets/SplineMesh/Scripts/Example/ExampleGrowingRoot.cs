@@ -31,9 +31,13 @@ namespace SplineMesh {
 
         public float DurationInSecond;
 
+        public bool active;
+        public bool loop;
+
         private void OnEnable() {
             rate = 0;
-            Init();
+            if (active)
+                Init();
 #if UNITY_EDITOR
             EditorApplication.update += EditorUpdate;
 #endif
@@ -45,7 +49,9 @@ namespace SplineMesh {
 #endif
         }
 
-        private void OnValidate() {
+        public void Play() {
+            active = true;
+            rate = 0;
             Init();
         }
 
@@ -54,9 +60,15 @@ namespace SplineMesh {
         }
 
         void EditorUpdate() {
+            if (!active) 
+                return;
+
             rate += Time.deltaTime / DurationInSecond;
             if (rate > 1) {
-                rate --;
+                if (loop)
+                    rate--;
+                else
+                    rate = 1;
             }
             Contort();
         }
