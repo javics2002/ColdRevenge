@@ -12,7 +12,7 @@ public class HeadTree : MonoBehaviour
         RADIO, CARA, GRITO, MOMENTO, COARTADA_MINERVA, FRANK, FINAL, SUICIDIO,
         MUERTE, HILOS, METODO2, HILO_USADO, MOTIVO_MARK, HERMANO, PUERTA, PESCA,
         WILLIAM, FINAL2, LLAVES_USADAS, ROBO, METODO_TAYLOR, CUELLO, FINAL3,
-        VISITA, CENA, NULL;
+        VISITA, CENA, NULL
     }
 
 
@@ -97,7 +97,7 @@ public class HeadTree : MonoBehaviour
         nodosD[nodos.ROBO] = new familia { pareja = nodos.VISITA, padre = nodos.METODO_TAYLOR };
 
         nodosD[nodos.METODO_TAYLOR] = new familia { pareja = nodos.CARTA, padre = nodos.FINAL3 };
-        nodosD[nodos.CARTA = new familia { pareja = nodos.METODO_TAYLOR, padre = nodos.FINAL3 };
+        nodosD[nodos.CARTA] = new familia { pareja = nodos.METODO_TAYLOR, padre = nodos.FINAL3 };
 
         nodosD[nodos.CENA] = new familia { pareja = nodos.NULL, padre = nodos.NULL };
 
