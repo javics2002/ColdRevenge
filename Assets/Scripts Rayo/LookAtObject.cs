@@ -11,7 +11,6 @@ using System.Net;
 
 public class LookAtObject : MonoBehaviour
 {
-
     bool looked;
     // Start is called before the first frame update
     void Start()
