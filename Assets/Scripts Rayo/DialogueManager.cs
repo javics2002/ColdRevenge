@@ -10,10 +10,24 @@ public class DialogueManager : MonoBehaviour
     [SerializeField]
     private TextMeshProUGUI dialogueBox;
 
+    bool dialogueStarted;
+
     // Start is called before the first frame update
     void Start()
     {
         sentences = new Queue<string>();
+
+        dialogueStarted = false;
+    }
+
+    private void Update()
+    {
+        if(dialogueStarted)
+        {
+            if(Input.GetKeyDown(KeyCode.E)) {
+                DisplayNextSentence();
+            }
+        }
     }
 
     public void StartDialogue(Dialogue dialogue)
@@ -26,6 +40,7 @@ public class DialogueManager : MonoBehaviour
         }
 
         DisplayNextSentence();
+        dialogueStarted = true;
     }
 
     public void DisplayNextSentence()
@@ -59,5 +74,6 @@ public class DialogueManager : MonoBehaviour
     {
         dialogueBox.text = "";
         StopAllCoroutines();
+        dialogueStarted = false;
     }
 }
