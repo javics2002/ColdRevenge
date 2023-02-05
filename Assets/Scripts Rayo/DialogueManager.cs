@@ -41,7 +41,6 @@ public class DialogueManager : MonoBehaviour
             sentences.Enqueue(sentence);
         }
 
-        DisplayNextSentence();
         dialogueStarted = true;
     }
 

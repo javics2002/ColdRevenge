@@ -152,7 +152,7 @@ public class LookAtObject : MonoBehaviour
 
 
                 // Quitar foco
-                if (Input.GetKeyDown(KeyCode.E) && !dialogueManager.isDisplayingDialogue())
+                if (!dialogueManager.isDisplayingDialogue())
                 {
                     // Quitamos Foco
                     focusingNPC = false;
