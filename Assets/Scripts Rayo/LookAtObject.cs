@@ -95,11 +95,9 @@ public class LookAtObject : MonoBehaviour
                             }
                             else if (focusGameObject.CompareTag("Door"))
                             {
-                                Animator doorAnimator = focusGameObject.GetComponent<Animator>();
-                                doorAnimator.SetBool("openDoor", true);
+                                Animator doorAnimator = focusGameObject.GetComponentInParent<Animator>();
+                                doorAnimator.SetBool("openDoor", !doorAnimator.GetBool("openDoor"));
 
-                                Collider collider = focusGameObject.GetComponent<Collider>();
-                                collider.enabled = false;
 
                                 focusGameObject = null;
                             }
