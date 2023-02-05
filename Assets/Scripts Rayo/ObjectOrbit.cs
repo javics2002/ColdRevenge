@@ -22,7 +22,7 @@ public class ObjectOrbit : MonoBehaviour
     {
         if (Input.GetButton("Fire1") && lookAtObject.isFocusingObject() && isLookable.isBeingLooked())
         {
-            transform.Rotate((Input.GetAxis("Mouse Y") * sensitivity.y * 100 * Time.deltaTime), (Input.GetAxis("Mouse X") * -sensitivity.x * 100 * Time.deltaTime), 0, Space.World);
+            transform.Rotate((Input.GetAxis("Mouse Y") * -sensitivity.y * 100 * Time.deltaTime), (Input.GetAxis("Mouse X") * -sensitivity.x * 100 * Time.deltaTime), 0, Space.World);
         }
     }
 }

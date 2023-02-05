@@ -1,5 +1,7 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Diagnostics;
 using TMPro;
 using UnityEngine;
 
@@ -39,7 +41,6 @@ public class DialogueManager : MonoBehaviour
             sentences.Enqueue(sentence);
         }
 
-        DisplayNextSentence();
         dialogueStarted = true;
     }
 
@@ -52,6 +53,7 @@ public class DialogueManager : MonoBehaviour
         }
 
         string sentence = sentences.Dequeue();
+        UnityEngine.Debug.Log(sentence);
         dialogueBox.text = sentence;
 
         StopAllCoroutines();

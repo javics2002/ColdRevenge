@@ -176,7 +176,7 @@ Transform:
   m_GameObject: {fileID: 4459864850019384750}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 2, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.1651424, y: 0.1651424, z: 0.1651424}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4459864851508666808}
@@ -241,10 +241,10 @@ CapsuleCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4459864850019384750}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 836fbcd42e67d6144898be780ae58460, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.5
+  m_Radius: 0.2
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
@@ -258,12 +258,12 @@ Rigidbody:
   serializedVersion: 2
   m_Mass: 1
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.001
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
 --- !u!114 &4459864850019384740
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -292,13 +292,13 @@ MonoBehaviour:
   zoomFOV: 30
   zoomStepTime: 5
   playerCanMove: 1
-  walkSpeed: 2
+  walkSpeed: 0.45
   maxVelocityChange: 10
-  enableSprint: 0
+  enableSprint: 1
   unlimitedSprint: 1
   sprintKey: 304
-  sprintSpeed: 7
-  sprintDuration: 5
+  sprintSpeed: 0.7
+  sprintDuration: 2
   sprintCooldown: 0.5
   sprintFOV: 90
   sprintFOVStepTime: 10
@@ -314,8 +314,8 @@ MonoBehaviour:
   enableCrouch: 1
   holdToCrouch: 1
   crouchKey: 306
-  crouchHeight: 0.5
-  speedReduction: 0.3
+  crouchHeight: 0.1
+  speedReduction: 0.494
   enableHeadBob: 1
   joint: {fileID: 4459864851508666808}
   bobSpeed: 10

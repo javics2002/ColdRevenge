@@ -83,11 +83,25 @@ public class LookAtObject : MonoBehaviour
                         {
                             focusGameObject = go;
 
-                            if (go.CompareTag("NPC"))
+                            if (focusGameObject.CompareTag("NPC"))
                             {
                                 focusingNPC = true;
                                 NPCAnimationController npcAnim = focusGameObject.GetComponent<NPCAnimationController>();
                                 npcAnim.startTalkingAnim();
+
+                                ObjectInfo objectInfo = focusGameObject.GetComponent<ObjectInfo>();
+                                if (objectInfo != null)
+                                    objectInfo.TriggerObjectInfo();
+                            }
+                            else if (focusGameObject.CompareTag("Door"))
+                            {
+                                Animator doorAnimator = focusGameObject.GetComponent<Animator>();
+                                doorAnimator.SetBool("openDoor", true);
+
+                                Collider collider = focusGameObject.GetComponent<Collider>();
+                                collider.enabled = false;
+
+                                focusGameObject = null;
                             }
                             else
                             {
@@ -97,10 +111,13 @@ public class LookAtObject : MonoBehaviour
 
                                 objectOrigPosition = new Vector3(focusGameObject.transform.position.x, focusGameObject.transform.position.y, focusGameObject.transform.position.z);
                                 objectOrigRotation = new Quaternion(focusGameObject.transform.rotation.x, focusGameObject.transform.rotation.y, focusGameObject.transform.rotation.z, focusGameObject.transform.rotation.w);
+
+                                ObjectInfo objectInfo = focusGameObject.GetComponent<ObjectInfo>();
+                                if (objectInfo != null)
+                                    objectInfo.TriggerObjectInfo();
                             }
 
-                            ObjectInfo objectInfo = focusGameObject.GetComponent<ObjectInfo>();
-                            objectInfo.TriggerObjectInfo();
+                           
 
                         }
                     }
@@ -135,7 +152,7 @@ public class LookAtObject : MonoBehaviour
 
 
                 // Quitar foco
-                if (Input.GetKeyDown(KeyCode.E) && !dialogueManager.isDisplayingDialogue())
+                if (!dialogueManager.isDisplayingDialogue())
                 {
                     // Quitamos Foco
                     focusingNPC = false;
@@ -215,10 +232,20 @@ public class LookAtObject : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        gameObjectsList.Add(other.gameObject);
+        if(other.GetComponent<IsLookable>() && !gameObjectsList.Contains(other.gameObject))
+            gameObjectsList.Add(other.gameObject);
     }
-
+    //private void OnTriggerStay(Collider other)
+    //{
+    //    gameObjectsList.Add(other.gameObject);
+    //}
     private void OnTriggerExit(Collider other){
-        gameObjectsList.Remove(other.gameObject);
+        if (other.GetComponent<IsLookable>())
+        {
+            gameObjectsList.Remove(other.gameObject);
+            uiText.SetText("");
+        }
+            
+       
     }
 }
