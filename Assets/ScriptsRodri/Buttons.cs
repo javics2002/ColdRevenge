@@ -47,6 +47,11 @@ public class Buttons : MonoBehaviour,IPointerEnterHandler ,IPointerExitHandler
         ActivaBotones();
     }
 
+    public void Level()
+    {
+        levelFade.GetComponent<LevelChanger>().FadeToLevel(2);
+    }
+
     public void DesactivaBotones()
     {
         startButton.GetComponent<Button>().enabled = false;
