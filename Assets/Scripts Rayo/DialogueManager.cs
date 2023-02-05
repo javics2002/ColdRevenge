@@ -76,4 +76,9 @@ public class DialogueManager : MonoBehaviour
         StopAllCoroutines();
         dialogueStarted = false;
     }
+
+    public bool isDisplayingDialogue()
+    {
+        return dialogueStarted;
+    }
 }

@@ -23,12 +23,17 @@ public class LookAtObject : MonoBehaviour
     Volume blurEffect;
 
     [SerializeField]
+    DialogueManager dialogueManager;
+
+    [SerializeField]
     Transform destinyObjectTransform;
 
     [SerializeField]
     int focusSpeed;
 
     bool focusingObject = false;
+
+    bool focusingNPC = false;
 
     Vector3 objectOrigPosition;
     Quaternion objectOrigRotation;
@@ -41,7 +46,7 @@ public class LookAtObject : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (!focusingObject) {
+        if (!focusingObject && !focusingNPC) {
             if(focusGameObject != null)
             {
                 // quitamos zoom
@@ -53,16 +58,18 @@ public class LookAtObject : MonoBehaviour
                     focusGameObject.transform.position = objectOrigPosition;
                     focusGameObject.transform.rotation = objectOrigRotation;
 
-                    focusGameObject.GetComponent<BoxCollider>().enabled = true;
+                    focusGameObject.GetComponent<Collider>().enabled = true;
 
                     focusGameObject.transform.SetPositionAndRotation(objectOrigPosition, objectOrigRotation);
 
                     focusGameObject = null;
+                    objectOrigPosition = Vector3.zero;
+                    objectOrigRotation = Quaternion.identity;
+
                 }
                 else
                     focusGameObject.transform.SetPositionAndRotation(newPosition, newRotation);
             }
-
 
             foreach (GameObject go in gameObjectsList)
             {
@@ -72,18 +79,29 @@ public class LookAtObject : MonoBehaviour
                     if (look != null && look.isMouseOver())
                     {
                         uiText.SetText(go.name);
-                        if (Input.GetKeyDown(KeyCode.E))
+                        if (Input.GetKeyDown(KeyCode.E)) // Distinguir si interactuas con NPC o con objeto
                         {
-                            focusingObject = true;
                             focusGameObject = go;
 
-                            look.setLooked(true);
+                            if (go.CompareTag("NPC"))
+                            {
+                                focusingNPC = true;
+                                NPCAnimationController npcAnim = focusGameObject.GetComponent<NPCAnimationController>();
+                                npcAnim.startTalkingAnim();
+                            }
+                            else
+                            {
+                                focusingObject = true;
+
+                                look.setLooked(true);
+
+                                objectOrigPosition = new Vector3(focusGameObject.transform.position.x, focusGameObject.transform.position.y, focusGameObject.transform.position.z);
+                                objectOrigRotation = new Quaternion(focusGameObject.transform.rotation.x, focusGameObject.transform.rotation.y, focusGameObject.transform.rotation.z, focusGameObject.transform.rotation.w);
+                            }
 
                             ObjectInfo objectInfo = focusGameObject.GetComponent<ObjectInfo>();
                             objectInfo.TriggerObjectInfo();
 
-                            objectOrigPosition = new Vector3(focusGameObject.transform.position.x, focusGameObject.transform.position.y, focusGameObject.transform.position.z);
-                            objectOrigRotation = new Quaternion(focusGameObject.transform.rotation.x, focusGameObject.transform.rotation.y, focusGameObject.transform.rotation.z, focusGameObject.transform.rotation.w);
                         }
                     }
                     else
@@ -95,58 +113,101 @@ public class LookAtObject : MonoBehaviour
         }
         else
         {
-            // Blur camera
-            blurEffect.enabled = true;
-
-            // Desactivar movimiento
-            FirstPersonController playerController = GetComponentInParent<FirstPersonController>();
-            Rigidbody playerRigidbody = GetComponentInParent<Rigidbody>();
-
-            if (playerController != null && playerRigidbody != null)
+            if (focusingNPC)
             {
-                playerController.DeativateCrosshair();
+                // Desactivar movimiento
+                FirstPersonController playerController = GetComponentInParent<FirstPersonController>();
+                Rigidbody playerRigidbody = GetComponentInParent<Rigidbody>();
 
-                playerController.enabled = false;
-                playerRigidbody.velocity = Vector3.zero;
+                if (playerController != null && playerRigidbody != null)
+                {
+                    playerController.DeativateCrosshair();
+
+                    playerController.enabled = false;
+                    playerRigidbody.velocity = Vector3.zero;
+                }
+
+                // Quitar Texto
+                uiText.SetText("");
+
+                // Quitar colision
+                //focusGameObject.GetComponent<Collider>().enabled = false;
+
+
+                // Quitar foco
+                if (Input.GetKeyDown(KeyCode.E) && !dialogueManager.isDisplayingDialogue())
+                {
+                    // Quitamos Foco
+                    focusingNPC = false;
+
+                    // Activamos playercontroller
+                    playerController.enabled = true;
+                    playerController.ActivateCrosshair();
+
+                    NPCAnimationController npcAnim = focusGameObject.GetComponent<NPCAnimationController>();
+                    npcAnim.stopTalkingAnim();
+
+                    // Null al objeto foco
+                    focusGameObject = null;
+                }
             }
 
-            // Mostrar el cursor
-            UnityEngine.Cursor.visible = true;
-            UnityEngine.Cursor.lockState = CursorLockMode.None;
-
-            // Quitar Texto
-            uiText.SetText("");
-
-            // Quitar colision
-            focusGameObject.GetComponent<BoxCollider>().enabled = false;
-
-            // Zoom al objeto
-            Vector3 newPosition = Vector3.Lerp(focusGameObject.transform.position, destinyObjectTransform.position, Time.deltaTime * focusSpeed);
-            focusGameObject.transform.SetPositionAndRotation(newPosition, focusGameObject.transform.rotation);
-
-            // Poder rotar el objeto
-
-            // Quitar foco
-            if(Input.GetKeyDown(KeyCode.E) )
+            if (focusingObject)
             {
-                // Quitamos Foco
-                focusingObject = false;
-                blurEffect.enabled = false;
+                // Blur camera
+                blurEffect.enabled = true;
 
-                // Desactivamos cursor
-                UnityEngine.Cursor.visible = false;
-                UnityEngine.Cursor.lockState = CursorLockMode.Locked;
+                // Desactivar movimiento
+                FirstPersonController playerController = GetComponentInParent<FirstPersonController>();
+                Rigidbody playerRigidbody = GetComponentInParent<Rigidbody>();
 
-                focusGameObject.GetComponent<IsLookable>().setLooked(false);
+                if (playerController != null && playerRigidbody != null)
+                {
+                    playerController.DeativateCrosshair();
 
-                // Activamos playercontroller
-                playerController.enabled = true;
+                    playerController.enabled = false;
+                    playerRigidbody.velocity = Vector3.zero;
+                }
 
-                playerController.ActivateCrosshair();
+                // Mostrar el cursor
+                UnityEngine.Cursor.visible = true;
+                UnityEngine.Cursor.lockState = CursorLockMode.None;
+
+                // Quitar Texto
+                uiText.SetText("");
+
+                // Quitar colision
+                focusGameObject.GetComponent<Collider>().enabled = false;
+
+                // Zoom al objeto
+                Vector3 newPosition = Vector3.Lerp(focusGameObject.transform.position, destinyObjectTransform.position, Time.deltaTime * focusSpeed);
+                focusGameObject.transform.SetPositionAndRotation(newPosition, focusGameObject.transform.rotation);
+
+                // Poder rotar el objeto
+
+                // Quitar foco
+                if (Input.GetKeyDown(KeyCode.E))
+                {
+                    // Quitamos Foco
+                    focusingObject = false;
+                    blurEffect.enabled = false;
+
+                    // Desactivamos cursor
+                    UnityEngine.Cursor.visible = false;
+                    UnityEngine.Cursor.lockState = CursorLockMode.Locked;
+
+                    focusGameObject.GetComponent<IsLookable>().setLooked(false);
+
+                    // Activamos playercontroller
+                    playerController.enabled = true;
+
+                    playerController.ActivateCrosshair();
+                }
             }
         }
-    }
 
+       
+    }
     public bool isFocusingObject()
     {
         return focusingObject;
