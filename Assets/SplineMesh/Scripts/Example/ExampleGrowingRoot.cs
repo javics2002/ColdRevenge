@@ -16,7 +16,10 @@ namespace SplineMesh {
     /// </summary>
     [ExecuteInEditMode]
     [RequireComponent(typeof(Spline))]
+    [System.Serializable]
     public class ExampleGrowingRoot : MonoBehaviour {
+
+
         private GameObject generated;
         private Spline spline;
         private float rate = 0;
@@ -31,6 +34,7 @@ namespace SplineMesh {
 
         public float DurationInSecond;
 
+        [SerializeField]
         public bool active;
         public bool loop;
 
@@ -48,7 +52,6 @@ namespace SplineMesh {
             EditorApplication.update -= EditorUpdate;
 #endif
         }
-
         public void Play() {
             active = true;
             rate = 0;

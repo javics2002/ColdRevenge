@@ -1,8 +1,9 @@
+using SplineMesh;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class HeadTree : MonoBehaviour
+public class HintTree : MonoBehaviour
 {
     public enum nodos
     {
@@ -15,17 +16,26 @@ public class HeadTree : MonoBehaviour
         VISITA, CENA, NULL
     }
 
-
     public struct familia
     {
         public nodos pareja;
         public nodos padre;
     }
-    Dictionary<nodos, familia> nodosD;
 
-    // Start is called before the first frame update
-    void Start()
+    Dictionary<nodos, familia> nodosD;
+    Dictionary<nodos, List<ExampleGrowingRoot>> raices;
+
+    bool[] ramaActiva;
+    public GameObject[] recuerdos;
+
+    void Awake()
     {
+        ramaActiva = new bool[(int) nodos.NULL];
+        for (int i = 0; i < ramaActiva.Length; i++)
+            ramaActiva[i] = false;
+
+        foreach(GameObject recuerdo in recuerdos)
+            recuerdo.SetActive(false);
 
         nodosD[nodos.HILO] = new familia { pareja = nodos.HILO1, padre = nodos.HILOS };
         nodosD[nodos.HILO1] = new familia { pareja = nodos.HILO, padre = nodos.HILOS };
@@ -106,13 +116,23 @@ public class HeadTree : MonoBehaviour
         nodosD[nodos.FINAL2] = new familia { pareja = nodos.NULL, padre = nodos.NULL };
 
         nodosD[nodos.FINAL3] = new familia { pareja = nodos.NULL, padre = nodos.NULL };
-
-
     }
 
-    // Update is called once per frame
-    void Update()
+    public void ActivaRama(nodos nodo)
     {
-        
+        ramaActiva[(int)nodo] = true;
+        foreach(ExampleGrowingRoot raiz in raices[nodo])
+            raiz.Play();
+
+        ActivaRecuerdo(nodo);
+
+        //Si la pareja esta activada, activamos el padre
+        if (ramaActiva[(int)nodosD[nodo].pareja])
+            ActivaRama(nodosD[nodo].padre);
+    }
+
+    void ActivaRecuerdo(nodos nodo)
+    {
+        recuerdos[(int)nodo].SetActive(true);
     }
 }
