@@ -1,0 +1,246 @@
+fileFormatVersion: 2
+guid: 2d6e903857d17c14095eb96e9375f779
+ModelImporter:
+  serializedVersion: 21202
+  internalIDToNameTable:
+  - first:
+      74: -2864447759459818446
+    second: Camera.002|Camera.002|Camera|CameraAction
+  - first:
+      74: -5240155066620356118
+    second: Camera.002|Curve|Curve|CurveAction
+  - first:
+      74: 1337037443699055481
+    second: Camera.002|Curve|Curve|Curve|Curve|Camera.004Action|Curve|Camera.004Action
+  - first:
+      74: -1826095215546631590
+    second: Camera.002|Curve|Curve|Curve|Curve|Camera.005|Camera.001|Camera.001|Ca
+  - first:
+      74: -5475383764423194824
+    second: Camera.002|Curve|Curve|Curve|Curve|Camera.005|Camera.001|Camera.001|Came_0
+  - first:
+      74: -7354739680547048386
+    second: Camera.002|Curve|Curve|Curve|Curve|Camera.005|Camera.001|Camera.001|Came_2
+  - first:
+      74: -6698321376147398385
+    second: Camera.002|Curve|Curve|Curve|Curve|Camera.005|Camera.001|Camera.001|Came_5
+  - first:
+      74: -5419658584706901674
+    second: Camera.002|Curve|Curve|Curve|Curve|Camera.005|Camera.001|Camera.001|Came_9
+  - first:
+      74: -908722315967810280
+    second: Camera.002|Curve|Curve|Curve|Curve|Camera.005|Camera.001|Camera.001|Came_b
+  - first:
+      74: 2377877560130481781
+    second: Camera.002|Curve|Curve|Curve|Curve|Camera.005|Camera.001|Camera.001|Came_d
+  - first:
+      74: 5875438049608722662
+    second: Camera.002|Curve|Curve|Curve|Curve|Camera.005|Camera.001|Camera.001|Came_f
+  - first:
+      74: 7523067050897965097
+    second: Camera.002|Curve|Curve|Curve|Curve|Curve|Curve|CurveAction.001|Curve|Cur_6
+  - first:
+      74: 546609257317062538
+    second: Camera.002|Curve|Curve|Curve|Curve|Curve|Curve|CurveAction|Curve|CurveAc_0
+  - first:
+      74: 5614731421161941252
+    second: Camera.002|Curve|Curve|living roomAction
+  - first:
+      74: 8686042150436836779
+    second: Camera.002|lamp.001|Take 001|BaseLayer
+  - first:
+      74: 3437687177464236345
+    second: Camera.002|lamp002|Take 001|BaseLayer
+  - first:
+      74: 4552822188636661276
+    second: Camera.002|lamp003|Take 001|BaseLayer
+  - first:
+      74: -3870140797973135984
+    second: Camera.002|lamp004|Take 001|BaseLayer
+  - first:
+      74: -3346650258066790653
+    second: Camera.002|lamp005|Take 001|BaseLayer
+  - first:
+      74: -712177643425392513
+    second: Camera.002|lamp006|Take 001|BaseLayer
+  - first:
+      74: 2261031884373568316
+    second: Camera.002|living room|living room|CurveAction
+  - first:
+      74: -6595148029833557158
+    second: Camera.002|living room|living room|Curve|Curve|Camera.004Action|Curve|Came
+  - first:
+      74: -8403377711731411844
+    second: Camera.002|living room|living room|Curve|Curve|Camera.005|Camera.001|C
+  - first:
+      74: 2745234162383370936
+    second: Camera.002|living room|living room|Curve|Curve|Camera.005|Camera.001|C.001
+  - first:
+      74: 7150088060113534824
+    second: Camera.002|living room|living room|Curve|Curve|Camera.005|Camera.001|C.002
+  - first:
+      74: 1138653593533817558
+    second: Camera.002|living room|living room|Curve|Curve|Camera.005|Camera.001|C.003
+  - first:
+      74: 8178862224708261491
+    second: Camera.002|living room|living room|Curve|Curve|Camera.005|Camera.001|C.004
+  - first:
+      74: 4060265738084797978
+    second: Camera.002|living room|living room|Curve|Curve|Camera.005|Camera.001|C.005
+  - first:
+      74: 1951375685023997263
+    second: Camera.002|living room|living room|Curve|Curve|Camera.005|Camera.001|C.006
+  - first:
+      74: -3084252755574927862
+    second: Camera.002|living room|living room|Curve|Curve|Camera.005|Camera.001|Camer
+  - first:
+      74: 4472669087868873981
+    second: Camera.002|living room|living room|Curve|Curve|Curve|Curve|CurveAction.001
+  - first:
+      74: -1437018954075949118
+    second: Camera.002|living room|living room|Curve|Curve|Curve|Curve|CurveAction|Cur
+  - first:
+      74: 8926888617430156625
+    second: Camera.002|living room|living room|living roomAction
+  - first:
+      74: 1859993137110771696
+    second: Camera.002|VRayCam001|Take 001|BaseLayer
+  - first:
+      74: -7776215296214409029
+    second: Camera.002|VRayIES001|Take 001|BaseLayer
+  - first:
+      74: -7210119543087848336
+    second: Camera.002|VRayIES002|Take 001|BaseLayer
+  - first:
+      74: 4029582291822122114
+    second: Camera.002|VRayIES006|Take 001|BaseLayer
+  - first:
+      74: -3929165303756529274
+    second: Camera.002|VRayIES008|Take 001|BaseLayer
+  - first:
+      74: 638391090591706317
+    second: Camera.002|VRayIES010|Take 001|BaseLayer
+  - first:
+      74: -3547710021794088173
+    second: Camera.002|VRayIES013|Take 001|BaseLayer
+  - first:
+      74: -1261671295952429929
+    second: Camera.002|VRayIES014|Take 001|BaseLayer
+  - first:
+      74: -6782733800427539188
+    second: Camera.002|VRayIES015|Take 001|BaseLayer
+  - first:
+      74: -1243214975650142359
+    second: Camera.002|VRayIES016|Take 001|BaseLayer
+  - first:
+      74: 885352904106990294
+    second: Camera.002|VRayIES017|Take 001|BaseLayer
+  - first:
+      74: -3193779247371970749
+    second: Camera.002|VRayIES018|Take 001|BaseLayer
+  - first:
+      74: -5102447512428472617
+    second: Camera.002|VRayIES019|Take 001|BaseLayer
+  - first:
+      74: 6551736068481814690
+    second: Camera.002|VRayIES020|Take 001|BaseLayer
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
