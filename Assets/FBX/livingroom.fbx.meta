@@ -1,0 +1,249 @@
+fileFormatVersion: 2
+guid: 37f17b21d426ea647ad2a1893c16452f
+ModelImporter:
+  serializedVersion: 21202
+  internalIDToNameTable:
+  - first:
+      74: 3245869645825444990
+    second: IndoorftArecaPalmArtificialTreePot|IndoorftArecaPalmArtificialTreePot|Take
+      001|BaseLayer
+  - first:
+      74: 7039548317430663454
+    second: IndoorftArecaPalmArtificialTreePot|IndoorftArecaPalmArtificialTreePot|Take
+      001|BaseLayer.001
+  - first:
+      74: -1761919732843518357
+    second: IndoorftArecaPalmArtificialTreePot|IndoorftArecaPalmArtificialTreeRocks|Take
+      001|BaseLayer
+  - first:
+      74: 6467794613950912329
+    second: IndoorftArecaPalmArtificialTreePot|IndoorftArecaPalmArtificialTreeRocks|Take
+      001|BaseLayer.001
+  - first:
+      74: -803082291787583945
+    second: IndoorftArecaPalmArtificialTreePot|IndoorftArecaPalmArtificialTree|Take
+      001|BaseLayer
+  - first:
+      74: -4028558213890057745
+    second: IndoorftArecaPalmArtificialTreePot|IndoorftArecaPalmArtificialTree|Take
+      001|BaseLayer.001
+  - first:
+      74: 7598778947740790115
+    second: IndoorftArecaPalmArtificialTreeRocks|IndoorftArecaPalmArtificialTreePot|Take
+      001|BaseLayer
+  - first:
+      74: -2081473105712262790
+    second: IndoorftArecaPalmArtificialTreeRocks|IndoorftArecaPalmArtificialTreePot|Take
+      001|BaseLayer.001
+  - first:
+      74: -6639526452342745589
+    second: IndoorftArecaPalmArtificialTreeRocks|IndoorftArecaPalmArtificialTreeRocks|Take
+      001|BaseLayer
+  - first:
+      74: 2527084673806800014
+    second: IndoorftArecaPalmArtificialTreeRocks|IndoorftArecaPalmArtificialTreeRocks|Take
+      001|BaseLayer.001
+  - first:
+      74: -8163612610181839595
+    second: IndoorftArecaPalmArtificialTreeRocks|IndoorftArecaPalmArtificialTree|Take
+      001|BaseLayer
+  - first:
+      74: 7645606596526999754
+    second: IndoorftArecaPalmArtificialTreeRocks|IndoorftArecaPalmArtificialTree|Take
+      001|BaseLayer.001
+  - first:
+      74: 1962844852432531184
+    second: IndoorftArecaPalmArtificialTree|IndoorftArecaPalmArtificialTreePot|Take
+      001|BaseLayer
+  - first:
+      74: -1762455330374061294
+    second: IndoorftArecaPalmArtificialTree|IndoorftArecaPalmArtificialTreePot|Take
+      001|BaseLayer.001
+  - first:
+      74: 995556555941924644
+    second: IndoorftArecaPalmArtificialTree|IndoorftArecaPalmArtificialTreeRocks|Take
+      001|BaseLayer
+  - first:
+      74: 760367489461532868
+    second: IndoorftArecaPalmArtificialTree|IndoorftArecaPalmArtificialTreeRocks|Take
+      001|BaseLayer.001
+  - first:
+      74: -629647750299156625
+    second: IndoorftArecaPalmArtificialTree|IndoorftArecaPalmArtificialTree|Take
+      001|BaseLayer
+  - first:
+      74: -6675555011774899658
+    second: IndoorftArecaPalmArtificialTree|IndoorftArecaPalmArtificialTree|Take
+      001|BaseLayer.001
+  - first:
+      74: 3710781971615246208
+    second: IndoorftArecaPalmArtificialTreeRocks.001|IndoorftArecaPalmArtificialTreePot|Take
+      001|BaseLayer
+  - first:
+      74: -4746855944514457640
+    second: IndoorftArecaPalmArtificialTreeRocks.001|IndoorftArecaPalmArtificialTreePot|Take
+      001|BaseLayer.001
+  - first:
+      74: -129350238255255852
+    second: IndoorftArecaPalmArtificialTreeRocks.001|IndoorftArecaPalmArtificialTreeRocks|Take
+      001|BaseLayer
+  - first:
+      74: 4220586680028764390
+    second: IndoorftArecaPalmArtificialTreeRocks.001|IndoorftArecaPalmArtificialTreeRocks|Take
+      001|BaseLayer.001
+  - first:
+      74: -6038393498783889610
+    second: IndoorftArecaPalmArtificialTreeRocks.001|IndoorftArecaPalmArtificialTree|Take
+      001|BaseLayer
+  - first:
+      74: -2392170769772367530
+    second: IndoorftArecaPalmArtificialTreeRocks.001|IndoorftArecaPalmArtificialTree|Take
+      001|BaseLayer.001
+  - first:
+      74: 3336147419095659973
+    second: IndoorftArecaPalmArtificialTreePot.001|IndoorftArecaPalmArtificialTreePot|Take
+      001|BaseLayer
+  - first:
+      74: 7356489170930057833
+    second: IndoorftArecaPalmArtificialTreePot.001|IndoorftArecaPalmArtificialTreePot|Take
+      001|BaseLayer.001
+  - first:
+      74: 3064689351098199262
+    second: IndoorftArecaPalmArtificialTreePot.001|IndoorftArecaPalmArtificialTreeRocks|Take
+      001|BaseLayer
+  - first:
+      74: 5851806455983395188
+    second: IndoorftArecaPalmArtificialTreePot.001|IndoorftArecaPalmArtificialTreeRocks|Take
+      001|BaseLayer.001
+  - first:
+      74: 4183014157320690011
+    second: IndoorftArecaPalmArtificialTreePot.001|IndoorftArecaPalmArtificialTree|Take
+      001|BaseLayer
+  - first:
+      74: -8414668665982230020
+    second: IndoorftArecaPalmArtificialTreePot.001|IndoorftArecaPalmArtificialTree|Take
+      001|BaseLayer.001
+  - first:
+      74: -1726600565223588638
+    second: IndoorftArecaPalmArtificialTree.001|IndoorftArecaPalmArtificialTreePot|Take
+      001|BaseLayer
+  - first:
+      74: -4676600639193881911
+    second: IndoorftArecaPalmArtificialTree.001|IndoorftArecaPalmArtificialTreePot|Take
+      001|BaseLayer.001
+  - first:
+      74: -3410203314470678936
+    second: IndoorftArecaPalmArtificialTree.001|IndoorftArecaPalmArtificialTreeRocks|Take
+      001|BaseLayer
+  - first:
+      74: -4979536359482357943
+    second: IndoorftArecaPalmArtificialTree.001|IndoorftArecaPalmArtificialTreeRocks|Take
+      001|BaseLayer.001
+  - first:
+      74: -4860147960376056428
+    second: IndoorftArecaPalmArtificialTree.001|IndoorftArecaPalmArtificialTree|Take
+      001|BaseLayer
+  - first:
+      74: -2963177926731031775
+    second: IndoorftArecaPalmArtificialTree.001|IndoorftArecaPalmArtificialTree|Take
+      001|BaseLayer.001
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

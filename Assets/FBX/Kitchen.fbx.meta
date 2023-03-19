@@ -1,0 +1,957 @@
+fileFormatVersion: 2
+guid: f590625074ba0564b9292faaf1f9f89c
+ModelImporter:
+  serializedVersion: 21202
+  internalIDToNameTable:
+  - first:
+      74: 8095610689098319216
+    second: Group001|Camera01.Target|Take 001|BaseLayer
+  - first:
+      74: 2766454654760060640
+    second: Group001|Camera01|Take 001|BaseLayer
+  - first:
+      74: 8007502103892875565
+    second: Group001|Dummy01|Take 001|BaseLayer
+  - first:
+      74: -8619369967838753905
+    second: Group001|Group001|Take 001|BaseLayer
+  - first:
+      74: 9028295108177023902
+    second: Group001|Spot01.Target|Take 001|BaseLayer
+  - first:
+      74: -1420801603603232259
+    second: Group001|Spot01|Take 001|BaseLayer
+  - first:
+      74: -2449374674447243350
+    second: Group001|Spot02.Target|Take 001|BaseLayer
+  - first:
+      74: -3492518947369806164
+    second: Group001|Spot02|Take 001|BaseLayer
+  - first:
+      74: 2391003203000217627
+    second: Group001|Spot03.Target|Take 001|BaseLayer
+  - first:
+      74: -3910412647915718542
+    second: Group001|Spot03|Take 001|BaseLayer
+  - first:
+      74: -7699422662767365823
+    second: Group001|Spot04.Target|Take 001|BaseLayer
+  - first:
+      74: 3130358746796646943
+    second: Group001|Spot04|Take 001|BaseLayer
+  - first:
+      74: 7843453017880389435
+    second: Group001|Spot05.Target|Take 001|BaseLayer
+  - first:
+      74: 5783024479587078725
+    second: Group001|Spot05|Take 001|BaseLayer
+  - first:
+      74: 1975516457362738025
+    second: Group001|SUELO|Take 001|BaseLayer
+  - first:
+      74: -1633437920662995952
+    second: Group001|WAMAbo01.001|Take 001|BaseLayer
+  - first:
+      74: -9012501665080602443
+    second: Group001|WAMAbo01|Take 001|BaseLayer
+  - first:
+      74: -6843223878915834477
+    second: Group001|WAMAbo02|Take 001|BaseLayer
+  - first:
+      74: -8891483344549011658
+    second: Group001|WAMAbody|Take 001|BaseLayer
+  - first:
+      74: 6948471263119612184
+    second: Group001|WAMAbu01|Take 001|BaseLayer
+  - first:
+      74: -3268225329817245099
+    second: Group001|WAMAbu02|Take 001|BaseLayer
+  - first:
+      74: -9135332912361114294
+    second: Group001|WAMAbu03|Take 001|BaseLayer
+  - first:
+      74: -2526179621492218179
+    second: Group001|WAMAbu04|Take 001|BaseLayer
+  - first:
+      74: 4643373382905524202
+    second: Group001|WAMAbu05|Take 001|BaseLayer
+  - first:
+      74: -4219565266841198962
+    second: Group001|WAMAbu06|Take 001|BaseLayer
+  - first:
+      74: 8750231505333295648
+    second: Group001|WAMAbu07|Take 001|BaseLayer
+  - first:
+      74: -1615931456177978518
+    second: Group001|WAMAbu08|Take 001|BaseLayer
+  - first:
+      74: 3498011928581736956
+    second: Group001|WAMAbu09|Take 001|BaseLayer
+  - first:
+      74: -8547658717654960410
+    second: Group001|WAMAbu10|Take 001|BaseLayer
+  - first:
+      74: -6877058245928530349
+    second: Group001|WAMAdi01|Take 001|BaseLayer
+  - first:
+      74: -4079422399001240058
+    second: Group001|WAMAdi02|Take 001|BaseLayer
+  - first:
+      74: -3934454732206268287
+    second: Group001|WAMAdo01|Take 001|BaseLayer
+  - first:
+      74: 1997807925505461328
+    second: Group001|WAMAdo02|Take 001|BaseLayer
+  - first:
+      74: 879482920404034585
+    second: Group001|WAMADOOR|Take 001|BaseLayer
+  - first:
+      74: 3582960700227334836
+    second: Group001|WAMAdoor|Take 001|BaseLayer
+  - first:
+      74: -5503706203137446305
+    second: Group001|WAMAdr01|Take 001|BaseLayer
+  - first:
+      74: -6041514557439806335
+    second: Group001|WAMAdr02|Take 001|BaseLayer
+  - first:
+      74: 7877243139997108690
+    second: Group001|WAMAfr01|Take 001|BaseLayer
+  - first:
+      74: -3503752559470632228
+    second: Group001|WAMAfr02|Take 001|BaseLayer
+  - first:
+      74: 479306476835715247
+    second: Group001|WAMAgla1|Take 001|BaseLayer
+  - first:
+      74: 3463396281145100973
+    second: Group001|WAMAgla2|Take 001|BaseLayer
+  - first:
+      74: 1524271246722236589
+    second: Group001|WAMAgla3|Take 001|BaseLayer
+  - first:
+      74: 598809530612790971
+    second: Group001|WAMAhi01|Take 001|BaseLayer
+  - first:
+      74: -6511571188254999955
+    second: Group001|WAMAhi02|Take 001|BaseLayer
+  - first:
+      74: -2304618685375124286
+    second: Group001|WAMAhi03|Take 001|BaseLayer
+  - first:
+      74: 6459882527063753573
+    second: Group001|WAMAop01|Take 001|BaseLayer
+  - first:
+      74: -5042552312695465418
+    second: Group001|WAMApa01|Take 001|BaseLayer
+  - first:
+      74: 1479200594175070771
+    second: Group001|WAMApa02|Take 001|BaseLayer
+  - first:
+      74: -2967781684701137336
+    second: Group001|WAMApa03|Take 001|BaseLayer
+  - first:
+      74: -9201365727252040861
+    second: Group001|WAMApa04|Take 001|BaseLayer
+  - first:
+      74: -8924185607808830693
+    second: Group001|WAMApl01|Take 001|BaseLayer
+  - first:
+      74: 6335618025851671759
+    second: Group001|WAMAsc01|Take 001|BaseLayer
+  - first:
+      74: -6899246506419220961
+    second: Group001|WAMAsc02|Take 001|BaseLayer
+  - first:
+      74: -8452847395464881669
+    second: Group001|WAMAsc03|Take 001|BaseLayer
+  - first:
+      74: 4727565423859020217
+    second: Group001|WAMAsc04|Take 001|BaseLayer
+  - first:
+      74: -2499015738165052715
+    second: Group001|WAMAsc05|Take 001|BaseLayer
+  - first:
+      74: 8493249421982699895
+    second: Group001|WAMAsc06|Take 001|BaseLayer
+  - first:
+      74: -910406669436595482
+    second: Group001|WAMAsc07|Take 001|BaseLayer
+  - first:
+      74: 7899577886817670518
+    second: Group001|WAMAsc08|Take 001|BaseLayer
+  - first:
+      74: -9046578632152240236
+    second: Group001|WAMAsc09|Take 001|BaseLayer
+  - first:
+      74: -3391597776400244366
+    second: Group001|WAMAsc10|Take 001|BaseLayer
+  - first:
+      74: -1524795007077142376
+    second: Group001|WAMAsc11|Take 001|BaseLayer
+  - first:
+      74: -3553792884655908094
+    second: Group001|WAMAsc12|Take 001|BaseLayer
+  - first:
+      74: 5629365704524563756
+    second: Group001|WAMAsc13|Take 001|BaseLayer
+  - first:
+      74: 7114739669737764867
+    second: Group001|WAMAsc14|Take 001|BaseLayer
+  - first:
+      74: 8937262781201157406
+    second: Group001|WAMAsc15|Take 001|BaseLayer
+  - first:
+      74: 3760574847874731524
+    second: Group001|WAMAsc16|Take 001|BaseLayer
+  - first:
+      74: 7607631808669175924
+    second: Group001|WAMAsc17|Take 001|BaseLayer
+  - first:
+      74: 1390675503382508474
+    second: Group001|WAMAsc18|Take 001|BaseLayer
+  - first:
+      74: -4724577333131715340
+    second: Group001|WAMAsc19|Take 001|BaseLayer
+  - first:
+      74: -6115546992677590315
+    second: Group001|WAMAsc20|Take 001|BaseLayer
+  - first:
+      74: -6988531321173604912
+    second: Dummy01|Camera01.Target|Take 001|BaseLayer
+  - first:
+      74: -7284959314612451939
+    second: Dummy01|Camera01|Take 001|BaseLayer
+  - first:
+      74: -6204085610598106507
+    second: Dummy01|Dummy01|Take 001|BaseLayer
+  - first:
+      74: 7067031769195520936
+    second: Dummy01|Group001|Take 001|BaseLayer
+  - first:
+      74: 7557366681050673006
+    second: Dummy01|Spot01.Target|Take 001|BaseLayer
+  - first:
+      74: 5204689465189246438
+    second: Dummy01|Spot01|Take 001|BaseLayer
+  - first:
+      74: 2143943153789704274
+    second: Dummy01|Spot02.Target|Take 001|BaseLayer
+  - first:
+      74: 3562810624036333924
+    second: Dummy01|Spot02|Take 001|BaseLayer
+  - first:
+      74: 4412066809620978617
+    second: Dummy01|Spot03.Target|Take 001|BaseLayer
+  - first:
+      74: 4633080459051795688
+    second: Dummy01|Spot03|Take 001|BaseLayer
+  - first:
+      74: -8051104744379098496
+    second: Dummy01|Spot04.Target|Take 001|BaseLayer
+  - first:
+      74: -500050181401317925
+    second: Dummy01|Spot04|Take 001|BaseLayer
+  - first:
+      74: 7467878161676727510
+    second: Dummy01|Spot05.Target|Take 001|BaseLayer
+  - first:
+      74: 5388696440462478465
+    second: Dummy01|Spot05|Take 001|BaseLayer
+  - first:
+      74: 5039294018254779934
+    second: Dummy01|SUELO|Take 001|BaseLayer
+  - first:
+      74: -7260038938042283984
+    second: Dummy01|WAMAbo01.001|Take 001|BaseLayer
+  - first:
+      74: 2389480680049525638
+    second: Dummy01|WAMAbo01|Take 001|BaseLayer
+  - first:
+      74: -2671974197158833741
+    second: Dummy01|WAMAbo02|Take 001|BaseLayer
+  - first:
+      74: 3074583588517141394
+    second: Dummy01|WAMAbody|Take 001|BaseLayer
+  - first:
+      74: 2094404945407056618
+    second: Dummy01|WAMAbu01|Take 001|BaseLayer
+  - first:
+      74: 6955430787215103331
+    second: Dummy01|WAMAbu02|Take 001|BaseLayer
+  - first:
+      74: 8228721381618052995
+    second: Dummy01|WAMAbu03|Take 001|BaseLayer
+  - first:
+      74: -913136216599018174
+    second: Dummy01|WAMAbu04|Take 001|BaseLayer
+  - first:
+      74: -3489831396594081051
+    second: Dummy01|WAMAbu05|Take 001|BaseLayer
+  - first:
+      74: -7003457216776374736
+    second: Dummy01|WAMAbu06|Take 001|BaseLayer
+  - first:
+      74: -1009500830198349329
+    second: Dummy01|WAMAbu07|Take 001|BaseLayer
+  - first:
+      74: 390341584988662034
+    second: Dummy01|WAMAbu08|Take 001|BaseLayer
+  - first:
+      74: -5605414599825652781
+    second: Dummy01|WAMAbu09|Take 001|BaseLayer
+  - first:
+      74: -2615904182387548200
+    second: Dummy01|WAMAbu10|Take 001|BaseLayer
+  - first:
+      74: 4706358625347601637
+    second: Dummy01|WAMAdi01|Take 001|BaseLayer
+  - first:
+      74: 4608316865323685973
+    second: Dummy01|WAMAdi02|Take 001|BaseLayer
+  - first:
+      74: 8467293132799274327
+    second: Dummy01|WAMAdo01|Take 001|BaseLayer
+  - first:
+      74: 649096023592799096
+    second: Dummy01|WAMAdo02|Take 001|BaseLayer
+  - first:
+      74: -4450274637007244307
+    second: Dummy01|WAMADOOR|Take 001|BaseLayer
+  - first:
+      74: -8915004572134725718
+    second: Dummy01|WAMAdoor|Take 001|BaseLayer
+  - first:
+      74: -9167320141264645612
+    second: Dummy01|WAMAdr01|Take 001|BaseLayer
+  - first:
+      74: -8398933431332017276
+    second: Dummy01|WAMAdr02|Take 001|BaseLayer
+  - first:
+      74: -5339609872823531217
+    second: Dummy01|WAMAfr01|Take 001|BaseLayer
+  - first:
+      74: -45187016041313931
+    second: Dummy01|WAMAfr02|Take 001|BaseLayer
+  - first:
+      74: -2212500498298243968
+    second: Dummy01|WAMAgla1|Take 001|BaseLayer
+  - first:
+      74: 4963263106160898432
+    second: Dummy01|WAMAgla2|Take 001|BaseLayer
+  - first:
+      74: -5085208615070044044
+    second: Dummy01|WAMAgla3|Take 001|BaseLayer
+  - first:
+      74: 8220636306985027230
+    second: Dummy01|WAMAhi01|Take 001|BaseLayer
+  - first:
+      74: -4212544629569798790
+    second: Dummy01|WAMAhi02|Take 001|BaseLayer
+  - first:
+      74: -8131053440584116418
+    second: Dummy01|WAMAhi03|Take 001|BaseLayer
+  - first:
+      74: -5801916453499959596
+    second: Dummy01|WAMAop01|Take 001|BaseLayer
+  - first:
+      74: 7627223834380026926
+    second: Dummy01|WAMApa01|Take 001|BaseLayer
+  - first:
+      74: 3042894436942791815
+    second: Dummy01|WAMApa02|Take 001|BaseLayer
+  - first:
+      74: -6102432556438587440
+    second: Dummy01|WAMApa03|Take 001|BaseLayer
+  - first:
+      74: 6485793224680958515
+    second: Dummy01|WAMApa04|Take 001|BaseLayer
+  - first:
+      74: 5255162960271866039
+    second: Dummy01|WAMApl01|Take 001|BaseLayer
+  - first:
+      74: -6701843523074200586
+    second: Dummy01|WAMAsc01|Take 001|BaseLayer
+  - first:
+      74: -3237934412671954022
+    second: Dummy01|WAMAsc02|Take 001|BaseLayer
+  - first:
+      74: -7966741595001817063
+    second: Dummy01|WAMAsc03|Take 001|BaseLayer
+  - first:
+      74: 8272704015377714679
+    second: Dummy01|WAMAsc04|Take 001|BaseLayer
+  - first:
+      74: 2849197692920222872
+    second: Dummy01|WAMAsc05|Take 001|BaseLayer
+  - first:
+      74: -7216678295108358850
+    second: Dummy01|WAMAsc06|Take 001|BaseLayer
+  - first:
+      74: 5658393587157297677
+    second: Dummy01|WAMAsc07|Take 001|BaseLayer
+  - first:
+      74: 7062471278160151416
+    second: Dummy01|WAMAsc08|Take 001|BaseLayer
+  - first:
+      74: 3224522099735441102
+    second: Dummy01|WAMAsc09|Take 001|BaseLayer
+  - first:
+      74: 6224909675230593068
+    second: Dummy01|WAMAsc10|Take 001|BaseLayer
+  - first:
+      74: -7011872186022485734
+    second: Dummy01|WAMAsc11|Take 001|BaseLayer
+  - first:
+      74: 273555357740527549
+    second: Dummy01|WAMAsc12|Take 001|BaseLayer
+  - first:
+      74: -1164266976428757406
+    second: Dummy01|WAMAsc13|Take 001|BaseLayer
+  - first:
+      74: 3305347962764725290
+    second: Dummy01|WAMAsc14|Take 001|BaseLayer
+  - first:
+      74: 5500308559817067534
+    second: Dummy01|WAMAsc15|Take 001|BaseLayer
+  - first:
+      74: -6225137495362208155
+    second: Dummy01|WAMAsc16|Take 001|BaseLayer
+  - first:
+      74: 1211708723034138231
+    second: Dummy01|WAMAsc17|Take 001|BaseLayer
+  - first:
+      74: 5100006209796261515
+    second: Dummy01|WAMAsc18|Take 001|BaseLayer
+  - first:
+      74: 3336343819094216709
+    second: Dummy01|WAMAsc19|Take 001|BaseLayer
+  - first:
+      74: 8122096550664964622
+    second: Dummy01|WAMAsc20|Take 001|BaseLayer
+  - first:
+      74: -1441710547932385572
+    second: Camera01.Target|Camera01.Target|Take 001|BaseLayer
+  - first:
+      74: 3685745418406060415
+    second: Camera01.Target|Camera01|Take 001|BaseLayer
+  - first:
+      74: 291986076221510548
+    second: Camera01.Target|Dummy01|Take 001|BaseLayer
+  - first:
+      74: 8224654510548008632
+    second: Camera01.Target|Group001|Take 001|BaseLayer
+  - first:
+      74: -4384412378076640080
+    second: Camera01.Target|Spot01.Target|Take 001|BaseLayer
+  - first:
+      74: -5935785049140202739
+    second: Camera01.Target|Spot01|Take 001|BaseLayer
+  - first:
+      74: 4162778309922352175
+    second: Camera01.Target|Spot02.Target|Take 001|BaseLayer
+  - first:
+      74: 1912462210480228203
+    second: Camera01.Target|Spot02|Take 001|BaseLayer
+  - first:
+      74: -8147082223717909867
+    second: Camera01.Target|Spot03.Target|Take 001|BaseLayer
+  - first:
+      74: -5595371423223171272
+    second: Camera01.Target|Spot03|Take 001|BaseLayer
+  - first:
+      74: 4516939619533776939
+    second: Camera01.Target|Spot04.Target|Take 001|BaseLayer
+  - first:
+      74: 5631283048695255371
+    second: Camera01.Target|Spot04|Take 001|BaseLayer
+  - first:
+      74: -7676013224306783975
+    second: Camera01.Target|Spot05.Target|Take 001|BaseLayer
+  - first:
+      74: 5861298007441461311
+    second: Camera01.Target|Spot05|Take 001|BaseLayer
+  - first:
+      74: 5076741836968538345
+    second: Camera01.Target|SUELO|Take 001|BaseLayer
+  - first:
+      74: -6650059688619992775
+    second: Camera01.Target|WAMAbo01.001|Take 001|BaseLayer
+  - first:
+      74: -622628361402699588
+    second: Camera01.Target|WAMAbo01|Take 001|BaseLayer
+  - first:
+      74: -3889364684875806713
+    second: Camera01.Target|WAMAbo02|Take 001|BaseLayer
+  - first:
+      74: 5713888013742266465
+    second: Camera01.Target|WAMAbody|Take 001|BaseLayer
+  - first:
+      74: 2422965893746040889
+    second: Camera01.Target|WAMAbu01|Take 001|BaseLayer
+  - first:
+      74: -3861624689498067877
+    second: Camera01.Target|WAMAbu02|Take 001|BaseLayer
+  - first:
+      74: -5006748651082607499
+    second: Camera01.Target|WAMAbu03|Take 001|BaseLayer
+  - first:
+      74: -3292792486745037763
+    second: Camera01.Target|WAMAbu04|Take 001|BaseLayer
+  - first:
+      74: -6943697395490089534
+    second: Camera01.Target|WAMAbu05|Take 001|BaseLayer
+  - first:
+      74: -4740755294583198013
+    second: Camera01.Target|WAMAbu06|Take 001|BaseLayer
+  - first:
+      74: -89200088408699657
+    second: Camera01.Target|WAMAbu07|Take 001|BaseLayer
+  - first:
+      74: 3881058594999775358
+    second: Camera01.Target|WAMAbu08|Take 001|BaseLayer
+  - first:
+      74: 4028025583611762171
+    second: Camera01.Target|WAMAbu09|Take 001|BaseLayer
+  - first:
+      74: -2569970758039007943
+    second: Camera01.Target|WAMAbu10|Take 001|BaseLayer
+  - first:
+      74: 9176862538550537780
+    second: Camera01.Target|WAMAdi01|Take 001|BaseLayer
+  - first:
+      74: -7535420943065755641
+    second: Camera01.Target|WAMAdi02|Take 001|BaseLayer
+  - first:
+      74: -5763128645180739950
+    second: Camera01.Target|WAMAdo01|Take 001|BaseLayer
+  - first:
+      74: 8087943640170898248
+    second: Camera01.Target|WAMAdo02|Take 001|BaseLayer
+  - first:
+      74: -8833894418347126543
+    second: Camera01.Target|WAMADOOR|Take 001|BaseLayer
+  - first:
+      74: -3126893616079912701
+    second: Camera01.Target|WAMAdoor|Take 001|BaseLayer
+  - first:
+      74: -8707093423634576934
+    second: Camera01.Target|WAMAdr01|Take 001|BaseLayer
+  - first:
+      74: 1858091451914820634
+    second: Camera01.Target|WAMAdr02|Take 001|BaseLayer
+  - first:
+      74: -5079473168597859726
+    second: Camera01.Target|WAMAfr01|Take 001|BaseLayer
+  - first:
+      74: 2138515250779734888
+    second: Camera01.Target|WAMAfr02|Take 001|BaseLayer
+  - first:
+      74: -8737562012096177365
+    second: Camera01.Target|WAMAgla1|Take 001|BaseLayer
+  - first:
+      74: -307453473779702493
+    second: Camera01.Target|WAMAgla2|Take 001|BaseLayer
+  - first:
+      74: -6576650227751974524
+    second: Camera01.Target|WAMAgla3|Take 001|BaseLayer
+  - first:
+      74: 2433204949336131473
+    second: Camera01.Target|WAMAhi01|Take 001|BaseLayer
+  - first:
+      74: 4065798059878115943
+    second: Camera01.Target|WAMAhi02|Take 001|BaseLayer
+  - first:
+      74: -3871324576884118501
+    second: Camera01.Target|WAMAhi03|Take 001|BaseLayer
+  - first:
+      74: -1205942518275464322
+    second: Camera01.Target|WAMAop01|Take 001|BaseLayer
+  - first:
+      74: 2026426225804611471
+    second: Camera01.Target|WAMApa01|Take 001|BaseLayer
+  - first:
+      74: 8458232554248318180
+    second: Camera01.Target|WAMApa02|Take 001|BaseLayer
+  - first:
+      74: -2441972634315882654
+    second: Camera01.Target|WAMApa03|Take 001|BaseLayer
+  - first:
+      74: -1821701144338135227
+    second: Camera01.Target|WAMApa04|Take 001|BaseLayer
+  - first:
+      74: 6991234695874038610
+    second: Camera01.Target|WAMApl01|Take 001|BaseLayer
+  - first:
+      74: -171423665342808924
+    second: Camera01.Target|WAMAsc01|Take 001|BaseLayer
+  - first:
+      74: -3376619577161743052
+    second: Camera01.Target|WAMAsc02|Take 001|BaseLayer
+  - first:
+      74: 6993640227164465558
+    second: Camera01.Target|WAMAsc03|Take 001|BaseLayer
+  - first:
+      74: 4932100337733854374
+    second: Camera01.Target|WAMAsc04|Take 001|BaseLayer
+  - first:
+      74: 8156831085760677378
+    second: Camera01.Target|WAMAsc05|Take 001|BaseLayer
+  - first:
+      74: 2090781131391785005
+    second: Camera01.Target|WAMAsc06|Take 001|BaseLayer
+  - first:
+      74: 4804816231277032912
+    second: Camera01.Target|WAMAsc07|Take 001|BaseLayer
+  - first:
+      74: 6406855355083376629
+    second: Camera01.Target|WAMAsc08|Take 001|BaseLayer
+  - first:
+      74: -8789219340127599571
+    second: Camera01.Target|WAMAsc09|Take 001|BaseLayer
+  - first:
+      74: 2729261761948744441
+    second: Camera01.Target|WAMAsc10|Take 001|BaseLayer
+  - first:
+      74: 1896707331653941775
+    second: Camera01.Target|WAMAsc11|Take 001|BaseLayer
+  - first:
+      74: -5839809397471039610
+    second: Camera01.Target|WAMAsc12|Take 001|BaseLayer
+  - first:
+      74: 6842595440225958579
+    second: Camera01.Target|WAMAsc13|Take 001|BaseLayer
+  - first:
+      74: -218366731748487707
+    second: Camera01.Target|WAMAsc14|Take 001|BaseLayer
+  - first:
+      74: -596333504749789078
+    second: Camera01.Target|WAMAsc15|Take 001|BaseLayer
+  - first:
+      74: 1009962197225475576
+    second: Camera01.Target|WAMAsc16|Take 001|BaseLayer
+  - first:
+      74: -6776514358919319448
+    second: Camera01.Target|WAMAsc17|Take 001|BaseLayer
+  - first:
+      74: 8360850471882733091
+    second: Camera01.Target|WAMAsc18|Take 001|BaseLayer
+  - first:
+      74: -7718494238425101823
+    second: Camera01.Target|WAMAsc19|Take 001|BaseLayer
+  - first:
+      74: 954334429606978346
+    second: Camera01.Target|WAMAsc20|Take 001|BaseLayer
+  - first:
+      74: 7045260103922837120
+    second: WAMAbody|Camera01.Target|Take 001|BaseLayer
+  - first:
+      74: -243173889660162442
+    second: WAMAbody|Camera01|Take 001|BaseLayer
+  - first:
+      74: 8485576460802744003
+    second: WAMAbody|Dummy01|Take 001|BaseLayer
+  - first:
+      74: -7814339520052342027
+    second: WAMAbody|Group001|Take 001|BaseLayer
+  - first:
+      74: -1081062053790602010
+    second: WAMAbody|Spot01.Target|Take 001|BaseLayer
+  - first:
+      74: -3990734282918189598
+    second: WAMAbody|Spot01|Take 001|BaseLayer
+  - first:
+      74: -7128816180807549255
+    second: WAMAbody|Spot02.Target|Take 001|BaseLayer
+  - first:
+      74: -6764375202620263188
+    second: WAMAbody|Spot02|Take 001|BaseLayer
+  - first:
+      74: 5830316439753983364
+    second: WAMAbody|Spot03.Target|Take 001|BaseLayer
+  - first:
+      74: -6136948300430946372
+    second: WAMAbody|Spot03|Take 001|BaseLayer
+  - first:
+      74: -7968288002642525998
+    second: WAMAbody|Spot04.Target|Take 001|BaseLayer
+  - first:
+      74: -9206110135040882191
+    second: WAMAbody|Spot04|Take 001|BaseLayer
+  - first:
+      74: 6471031368842120739
+    second: WAMAbody|Spot05.Target|Take 001|BaseLayer
+  - first:
+      74: -1786402412594855934
+    second: WAMAbody|Spot05|Take 001|BaseLayer
+  - first:
+      74: 6881458680520616410
+    second: WAMAbody|SUELO|Take 001|BaseLayer
+  - first:
+      74: -4065067700220578321
+    second: WAMAbody|WAMAbo01.001|Take 001|BaseLayer
+  - first:
+      74: -9049062843556791577
+    second: WAMAbody|WAMAbo01|Take 001|BaseLayer
+  - first:
+      74: -6165305011539345261
+    second: WAMAbody|WAMAbo02|Take 001|BaseLayer
+  - first:
+      74: -2547992532193862721
+    second: WAMAbody|WAMAbody|Take 001|BaseLayer
+  - first:
+      74: 8785206837397077445
+    second: WAMAbody|WAMAbu01|Take 001|BaseLayer
+  - first:
+      74: -9050372330551342636
+    second: WAMAbody|WAMAbu02|Take 001|BaseLayer
+  - first:
+      74: 583118786812764853
+    second: WAMAbody|WAMAbu03|Take 001|BaseLayer
+  - first:
+      74: 6302021246560367013
+    second: WAMAbody|WAMAbu04|Take 001|BaseLayer
+  - first:
+      74: 2181886321004592208
+    second: WAMAbody|WAMAbu05|Take 001|BaseLayer
+  - first:
+      74: 1017202294224471499
+    second: WAMAbody|WAMAbu06|Take 001|BaseLayer
+  - first:
+      74: -7079392934189069968
+    second: WAMAbody|WAMAbu07|Take 001|BaseLayer
+  - first:
+      74: -6363978612168467385
+    second: WAMAbody|WAMAbu08|Take 001|BaseLayer
+  - first:
+      74: -141157461395716752
+    second: WAMAbody|WAMAbu09|Take 001|BaseLayer
+  - first:
+      74: 6591882182450385407
+    second: WAMAbody|WAMAbu10|Take 001|BaseLayer
+  - first:
+      74: 8722430558114688208
+    second: WAMAbody|WAMAdi01|Take 001|BaseLayer
+  - first:
+      74: -6512639296288298308
+    second: WAMAbody|WAMAdi02|Take 001|BaseLayer
+  - first:
+      74: 7622452115460513200
+    second: WAMAbody|WAMAdo01|Take 001|BaseLayer
+  - first:
+      74: 5756402499242862635
+    second: WAMAbody|WAMAdo02|Take 001|BaseLayer
+  - first:
+      74: -5322787405460117630
+    second: WAMAbody|WAMADOOR|Take 001|BaseLayer
+  - first:
+      74: -2632102527852757006
+    second: WAMAbody|WAMAdoor|Take 001|BaseLayer
+  - first:
+      74: 4404762390572667909
+    second: WAMAbody|WAMAdr01|Take 001|BaseLayer
+  - first:
+      74: 4717731648009101748
+    second: WAMAbody|WAMAdr02|Take 001|BaseLayer
+  - first:
+      74: -3693252541792677687
+    second: WAMAbody|WAMAfr01|Take 001|BaseLayer
+  - first:
+      74: 5000115768950820667
+    second: WAMAbody|WAMAfr02|Take 001|BaseLayer
+  - first:
+      74: -4209084988875600304
+    second: WAMAbody|WAMAgla1|Take 001|BaseLayer
+  - first:
+      74: 4387465415217768158
+    second: WAMAbody|WAMAgla2|Take 001|BaseLayer
+  - first:
+      74: 5089559870465725016
+    second: WAMAbody|WAMAgla3|Take 001|BaseLayer
+  - first:
+      74: -4156186806476752457
+    second: WAMAbody|WAMAhi01|Take 001|BaseLayer
+  - first:
+      74: -2948473085559504311
+    second: WAMAbody|WAMAhi02|Take 001|BaseLayer
+  - first:
+      74: -5830282085343841249
+    second: WAMAbody|WAMAhi03|Take 001|BaseLayer
+  - first:
+      74: 1378950299522285334
+    second: WAMAbody|WAMAop01|Take 001|BaseLayer
+  - first:
+      74: -1825795015376359562
+    second: WAMAbody|WAMApa01|Take 001|BaseLayer
+  - first:
+      74: -7669992496083434409
+    second: WAMAbody|WAMApa02|Take 001|BaseLayer
+  - first:
+      74: -1157686946327783989
+    second: WAMAbody|WAMApa03|Take 001|BaseLayer
+  - first:
+      74: 2879042247658676238
+    second: WAMAbody|WAMApa04|Take 001|BaseLayer
+  - first:
+      74: -6250771512261029526
+    second: WAMAbody|WAMApl01|Take 001|BaseLayer
+  - first:
+      74: 942813871893829904
+    second: WAMAbody|WAMAsc01|Take 001|BaseLayer
+  - first:
+      74: 3135572226523259338
+    second: WAMAbody|WAMAsc02|Take 001|BaseLayer
+  - first:
+      74: 8540463867116792504
+    second: WAMAbody|WAMAsc03|Take 001|BaseLayer
+  - first:
+      74: -7230163763228501263
+    second: WAMAbody|WAMAsc04|Take 001|BaseLayer
+  - first:
+      74: 2465309848595598537
+    second: WAMAbody|WAMAsc05|Take 001|BaseLayer
+  - first:
+      74: 3189653406872538760
+    second: WAMAbody|WAMAsc06|Take 001|BaseLayer
+  - first:
+      74: -2129288756884307304
+    second: WAMAbody|WAMAsc07|Take 001|BaseLayer
+  - first:
+      74: 5713771492378721074
+    second: WAMAbody|WAMAsc08|Take 001|BaseLayer
+  - first:
+      74: -6882867244598640295
+    second: WAMAbody|WAMAsc09|Take 001|BaseLayer
+  - first:
+      74: -4996823794183957517
+    second: WAMAbody|WAMAsc10|Take 001|BaseLayer
+  - first:
+      74: -6551080438605648392
+    second: WAMAbody|WAMAsc11|Take 001|BaseLayer
+  - first:
+      74: 1239694160237191103
+    second: WAMAbody|WAMAsc12|Take 001|BaseLayer
+  - first:
+      74: 4811831501504050200
+    second: WAMAbody|WAMAsc13|Take 001|BaseLayer
+  - first:
+      74: -5249540102774890128
+    second: WAMAbody|WAMAsc14|Take 001|BaseLayer
+  - first:
+      74: 2690931221225223661
+    second: WAMAbody|WAMAsc15|Take 001|BaseLayer
+  - first:
+      74: 5576830863504543401
+    second: WAMAbody|WAMAsc16|Take 001|BaseLayer
+  - first:
+      74: 1017565928686733754
+    second: WAMAbody|WAMAsc17|Take 001|BaseLayer
+  - first:
+      74: 2160037912629691001
+    second: WAMAbody|WAMAsc18|Take 001|BaseLayer
+  - first:
+      74: -3416822952890100857
+    second: WAMAbody|WAMAsc19|Take 001|BaseLayer
+  - first:
+      74: 1577422599870291000
+    second: WAMAbody|WAMAsc20|Take 001|BaseLayer
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
