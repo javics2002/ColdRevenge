@@ -6,13 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Rodri.unity
-    guid: bc132e9ea03e1614f8271fe4b6785313
-  - enabled: 1
-    path: Assets/Scenes/MenuOpciones.unity
-    guid: ddfe163349d64e24b850e6a6f32461fe
-  - enabled: 1
-    path: Assets/Scenes/Level.unity
+    path: Assets/Scenes/Piso.unity
     guid: d63e3c95a6f8f964d911f6d2b7003e80
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: f591c036392693340840e33f8f094384, type: 2}
