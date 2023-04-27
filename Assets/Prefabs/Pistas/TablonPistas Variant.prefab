@@ -7,6 +7,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4390331229336789794}
     m_Modifications:
+    - target: {fileID: 129106486243369143, guid: d2d0d0cf4cf5de0439d67a495fea601c, type: 3}
+      propertyPath: m_FirstSelectEntered.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 842046753479070654, guid: d2d0d0cf4cf5de0439d67a495fea601c, type: 3}
       propertyPath: m_text
       value: Foto en el lago
@@ -85,6 +89,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4390331229336789794}
     m_Modifications:
+    - target: {fileID: 129106486243369143, guid: d2d0d0cf4cf5de0439d67a495fea601c, type: 3}
+      propertyPath: m_FirstSelectEntered.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 842046753479070654, guid: d2d0d0cf4cf5de0439d67a495fea601c, type: 3}
       propertyPath: m_text
       value: Taylor es el asesino
@@ -171,6 +179,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4390331229336789794}
     m_Modifications:
+    - target: {fileID: 129106486243369143, guid: d2d0d0cf4cf5de0439d67a495fea601c, type: 3}
+      propertyPath: m_FirstSelectEntered.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 842046753479070654, guid: d2d0d0cf4cf5de0439d67a495fea601c, type: 3}
       propertyPath: m_text
       value: Aguja
@@ -324,6 +336,169 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 5ad8b5c5cf1635d4d892a3cf540f871b, type: 3}
   m_PrefabInstance: {fileID: 4280442199861167305}
   m_PrefabAsset: {fileID: 0}
+--- !u!54 &-634598241500308444
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4009969833542957464}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &-166993748880417510
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4009969833542957464}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ad34abafad169848a38072baa96cdb2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_InteractionManager: {fileID: 0}
+  m_Colliders: []
+  m_InteractionLayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_InteractionLayers:
+    m_Bits: 1
+  m_DistanceCalculationMode: 1
+  m_SelectMode: 0
+  m_CustomReticle: {fileID: 0}
+  m_AllowGazeInteraction: 0
+  m_AllowGazeSelect: 0
+  m_OverrideGazeTimeToSelect: 0
+  m_GazeTimeToSelect: 0.5
+  m_OverrideTimeToAutoDeselectGaze: 0
+  m_TimeToAutoDeselectGaze: 3
+  m_AllowGazeAssistance: 0
+  m_FirstHoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastHoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FirstSelectEntered:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 4009969833542957464}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  m_LastSelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Activated:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Deactivated:
+    m_PersistentCalls:
+      m_Calls: []
+  m_StartingHoverFilters: []
+  m_StartingSelectFilters: []
+  m_StartingInteractionStrengthFilters: []
+  m_OnFirstHoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnLastHoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnHoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnHoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnSelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnSelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnSelectCanceled:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnActivate:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnDeactivate:
+    m_PersistentCalls:
+      m_Calls: []
+  m_AttachTransform: {fileID: 0}
+  m_SecondaryAttachTransform: {fileID: 0}
+  m_UseDynamicAttach: 0
+  m_MatchAttachPosition: 1
+  m_MatchAttachRotation: 1
+  m_SnapToColliderVolume: 1
+  m_ReinitializeDynamicAttachEverySingleGrab: 1
+  m_AttachEaseInTime: 0.15
+  m_MovementType: 2
+  m_VelocityDamping: 1
+  m_VelocityScale: 1
+  m_AngularVelocityDamping: 1
+  m_AngularVelocityScale: 1
+  m_TrackPosition: 1
+  m_SmoothPosition: 0
+  m_SmoothPositionAmount: 5
+  m_TightenPosition: 0.5
+  m_TrackRotation: 1
+  m_SmoothRotation: 0
+  m_SmoothRotationAmount: 5
+  m_TightenRotation: 0.5
+  m_ThrowOnDetach: 1
+  m_ThrowSmoothingDuration: 0.25
+  m_ThrowSmoothingCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  m_ThrowVelocityScale: 1.5
+  m_ThrowAngularVelocityScale: 1
+  m_ForceGravityOnDetach: 0
+  m_RetainTransformParent: 1
+  m_AttachPointCompatibilityMode: 0
+  m_StartingSingleGrabTransformers: []
+  m_StartingMultipleGrabTransformers: []
+  m_AddDefaultGrabTransformers: 1
 --- !u!114 &1184048248
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -398,6 +573,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4390331229336789794}
     m_Modifications:
+    - target: {fileID: 129106486243369143, guid: d2d0d0cf4cf5de0439d67a495fea601c, type: 3}
+      propertyPath: m_FirstSelectEntered.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 842046753479070654, guid: d2d0d0cf4cf5de0439d67a495fea601c, type: 3}
       propertyPath: m_text
       value: "Promesa de donaci\xF3n"
@@ -476,6 +655,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4390331229336789794}
     m_Modifications:
+    - target: {fileID: 129106486243369143, guid: d2d0d0cf4cf5de0439d67a495fea601c, type: 3}
+      propertyPath: m_FirstSelectEntered.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 842046753479070654, guid: d2d0d0cf4cf5de0439d67a495fea601c, type: 3}
       propertyPath: m_text
       value: Llaves
@@ -554,6 +737,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4390331229336789794}
     m_Modifications:
+    - target: {fileID: 129106486243369143, guid: d2d0d0cf4cf5de0439d67a495fea601c, type: 3}
+      propertyPath: m_FirstSelectEntered.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 842046753479070654, guid: d2d0d0cf4cf5de0439d67a495fea601c, type: 3}
       propertyPath: m_text
       value: Cena
@@ -632,6 +819,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4390331229336789794}
     m_Modifications:
+    - target: {fileID: 129106486243369143, guid: d2d0d0cf4cf5de0439d67a495fea601c, type: 3}
+      propertyPath: m_FirstSelectEntered.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 842046753479070654, guid: d2d0d0cf4cf5de0439d67a495fea601c, type: 3}
       propertyPath: m_text
       value: Somnifero
@@ -710,6 +901,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4390331229336789794}
     m_Modifications:
+    - target: {fileID: 129106486243369143, guid: d2d0d0cf4cf5de0439d67a495fea601c, type: 3}
+      propertyPath: m_FirstSelectEntered.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 842046753479070654, guid: d2d0d0cf4cf5de0439d67a495fea601c, type: 3}
       propertyPath: m_text
       value: Radio
@@ -788,6 +983,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4390331229336789794}
     m_Modifications:
+    - target: {fileID: 129106486243369143, guid: d2d0d0cf4cf5de0439d67a495fea601c, type: 3}
+      propertyPath: m_FirstSelectEntered.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 842046753479070654, guid: d2d0d0cf4cf5de0439d67a495fea601c, type: 3}
       propertyPath: m_text
       value: 'Hilo de pescar
@@ -868,6 +1067,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4390331229336789794}
     m_Modifications:
+    - target: {fileID: 129106486243369143, guid: d2d0d0cf4cf5de0439d67a495fea601c, type: 3}
+      propertyPath: m_FirstSelectEntered.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 842046753479070654, guid: d2d0d0cf4cf5de0439d67a495fea601c, type: 3}
       propertyPath: m_text
       value: Veneno
@@ -946,6 +1149,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4390331229336789794}
     m_Modifications:
+    - target: {fileID: 129106486243369143, guid: d2d0d0cf4cf5de0439d67a495fea601c, type: 3}
+      propertyPath: m_FirstSelectEntered.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 842046753479070654, guid: d2d0d0cf4cf5de0439d67a495fea601c, type: 3}
       propertyPath: m_text
       value: Mark es el hermano de William
@@ -1024,6 +1231,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4390331229336789794}
     m_Modifications:
+    - target: {fileID: 129106486243369143, guid: d2d0d0cf4cf5de0439d67a495fea601c, type: 3}
+      propertyPath: m_FirstSelectEntered.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 842046753479070654, guid: d2d0d0cf4cf5de0439d67a495fea601c, type: 3}
       propertyPath: m_text
       value: Cafe
@@ -1102,6 +1313,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4390331229336789794}
     m_Modifications:
+    - target: {fileID: 129106486243369143, guid: d2d0d0cf4cf5de0439d67a495fea601c, type: 3}
+      propertyPath: m_FirstSelectEntered.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 842046753479070654, guid: d2d0d0cf4cf5de0439d67a495fea601c, type: 3}
       propertyPath: m_text
       value: Mark Brown
@@ -1180,6 +1395,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4390331229336789794}
     m_Modifications:
+    - target: {fileID: 129106486243369143, guid: d2d0d0cf4cf5de0439d67a495fea601c, type: 3}
+      propertyPath: m_FirstSelectEntered.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 842046753479070654, guid: d2d0d0cf4cf5de0439d67a495fea601c, type: 3}
       propertyPath: m_text
       value: Robo de llaves
@@ -1258,6 +1477,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4390331229336789794}
     m_Modifications:
+    - target: {fileID: 129106486243369143, guid: d2d0d0cf4cf5de0439d67a495fea601c, type: 3}
+      propertyPath: m_FirstSelectEntered.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 842046753479070654, guid: d2d0d0cf4cf5de0439d67a495fea601c, type: 3}
       propertyPath: m_text
       value: William estaba dormido
@@ -1336,6 +1559,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4390331229336789794}
     m_Modifications:
+    - target: {fileID: 129106486243369143, guid: d2d0d0cf4cf5de0439d67a495fea601c, type: 3}
+      propertyPath: m_FirstSelectEntered.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 842046753479070654, guid: d2d0d0cf4cf5de0439d67a495fea601c, type: 3}
       propertyPath: m_text
       value: "Frank falleci\xF3"
@@ -1414,6 +1641,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4390331229336789794}
     m_Modifications:
+    - target: {fileID: 129106486243369143, guid: d2d0d0cf4cf5de0439d67a495fea601c, type: 3}
+      propertyPath: m_FirstSelectEntered.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 842046753479070654, guid: d2d0d0cf4cf5de0439d67a495fea601c, type: 3}
       propertyPath: m_text
       value: "Minerva podr\xEDa haber matado a William al entrar en la oficina"
@@ -1492,6 +1723,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4390331229336789794}
     m_Modifications:
+    - target: {fileID: 129106486243369143, guid: d2d0d0cf4cf5de0439d67a495fea601c, type: 3}
+      propertyPath: m_FirstSelectEntered.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 842046753479070654, guid: d2d0d0cf4cf5de0439d67a495fea601c, type: 3}
       propertyPath: m_text
       value: Taylor Scott
@@ -1570,6 +1805,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4390331229336789794}
     m_Modifications:
+    - target: {fileID: 129106486243369143, guid: d2d0d0cf4cf5de0439d67a495fea601c, type: 3}
+      propertyPath: m_FirstSelectEntered.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 842046753479070654, guid: d2d0d0cf4cf5de0439d67a495fea601c, type: 3}
       propertyPath: m_text
       value: Minerva es la asesina
@@ -1656,6 +1895,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4390331229336789794}
     m_Modifications:
+    - target: {fileID: 129106486243369143, guid: d2d0d0cf4cf5de0439d67a495fea601c, type: 3}
+      propertyPath: m_FirstSelectEntered.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 842046753479070654, guid: d2d0d0cf4cf5de0439d67a495fea601c, type: 3}
       propertyPath: m_text
       value: William acaba de morir
@@ -1734,6 +1977,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4390331229336789794}
     m_Modifications:
+    - target: {fileID: 129106486243369143, guid: d2d0d0cf4cf5de0439d67a495fea601c, type: 3}
+      propertyPath: m_FirstSelectEntered.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 842046753479070654, guid: d2d0d0cf4cf5de0439d67a495fea601c, type: 3}
       propertyPath: m_text
       value: Taylor ha tenido la oportunidad de matar a William
@@ -1812,6 +2059,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4390331229336789794}
     m_Modifications:
+    - target: {fileID: 129106486243369143, guid: d2d0d0cf4cf5de0439d67a495fea601c, type: 3}
+      propertyPath: m_FirstSelectEntered.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 842046753479070654, guid: d2d0d0cf4cf5de0439d67a495fea601c, type: 3}
       propertyPath: m_text
       value: 'Hilo de pescar
@@ -1892,6 +2143,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4390331229336789794}
     m_Modifications:
+    - target: {fileID: 129106486243369143, guid: d2d0d0cf4cf5de0439d67a495fea601c, type: 3}
+      propertyPath: m_FirstSelectEntered.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 842046753479070654, guid: d2d0d0cf4cf5de0439d67a495fea601c, type: 3}
       propertyPath: m_text
       value: Libros en el escritorio
@@ -1970,6 +2225,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4390331229336789794}
     m_Modifications:
+    - target: {fileID: 129106486243369143, guid: d2d0d0cf4cf5de0439d67a495fea601c, type: 3}
+      propertyPath: m_FirstSelectEntered.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 842046753479070654, guid: d2d0d0cf4cf5de0439d67a495fea601c, type: 3}
       propertyPath: m_text
       value: Las llaves caben bajo la puerta
@@ -2048,6 +2307,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4390331229336789794}
     m_Modifications:
+    - target: {fileID: 129106486243369143, guid: d2d0d0cf4cf5de0439d67a495fea601c, type: 3}
+      propertyPath: m_FirstSelectEntered.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 842046753479070654, guid: d2d0d0cf4cf5de0439d67a495fea601c, type: 3}
       propertyPath: m_text
       value: El asesino ha ocultado la cara de William
@@ -2126,6 +2389,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4390331229336789794}
     m_Modifications:
+    - target: {fileID: 129106486243369143, guid: d2d0d0cf4cf5de0439d67a495fea601c, type: 3}
+      propertyPath: m_FirstSelectEntered.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 842046753479070654, guid: d2d0d0cf4cf5de0439d67a495fea601c, type: 3}
       propertyPath: m_text
       value: Minerva informa la muerte
@@ -2204,6 +2471,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4390331229336789794}
     m_Modifications:
+    - target: {fileID: 129106486243369143, guid: d2d0d0cf4cf5de0439d67a495fea601c, type: 3}
+      propertyPath: m_FirstSelectEntered.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 842046753479070654, guid: d2d0d0cf4cf5de0439d67a495fea601c, type: 3}
       propertyPath: m_text
       value: Minerva Cooper
@@ -2282,6 +2553,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4390331229336789794}
     m_Modifications:
+    - target: {fileID: 129106486243369143, guid: d2d0d0cf4cf5de0439d67a495fea601c, type: 3}
+      propertyPath: m_FirstSelectEntered.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 842046753479070654, guid: d2d0d0cf4cf5de0439d67a495fea601c, type: 3}
       propertyPath: m_text
       value: El asesino ha ocultado el grito de William
@@ -2360,6 +2635,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4390331229336789794}
     m_Modifications:
+    - target: {fileID: 129106486243369143, guid: d2d0d0cf4cf5de0439d67a495fea601c, type: 3}
+      propertyPath: m_FirstSelectEntered.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 842046753479070654, guid: d2d0d0cf4cf5de0439d67a495fea601c, type: 3}
       propertyPath: m_text
       value: "Reuni\xF3n de William con Taylor"
@@ -2438,6 +2717,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4390331229336789794}
     m_Modifications:
+    - target: {fileID: 129106486243369143, guid: d2d0d0cf4cf5de0439d67a495fea601c, type: 3}
+      propertyPath: m_FirstSelectEntered.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 842046753479070654, guid: d2d0d0cf4cf5de0439d67a495fea601c, type: 3}
       propertyPath: m_text
       value: Hueco bajo la puerta
@@ -2516,6 +2799,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4390331229336789794}
     m_Modifications:
+    - target: {fileID: 129106486243369143, guid: d2d0d0cf4cf5de0439d67a495fea601c, type: 3}
+      propertyPath: m_FirstSelectEntered.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 842046753479070654, guid: d2d0d0cf4cf5de0439d67a495fea601c, type: 3}
       propertyPath: m_text
       value: El arma es la aguja envenenada
@@ -2594,6 +2881,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4390331229336789794}
     m_Modifications:
+    - target: {fileID: 129106486243369143, guid: d2d0d0cf4cf5de0439d67a495fea601c, type: 3}
+      propertyPath: m_FirstSelectEntered.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 842046753479070654, guid: d2d0d0cf4cf5de0439d67a495fea601c, type: 3}
       propertyPath: m_text
       value: La puerta no ha sido forzada
@@ -2672,6 +2963,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4390331229336789794}
     m_Modifications:
+    - target: {fileID: 129106486243369143, guid: d2d0d0cf4cf5de0439d67a495fea601c, type: 3}
+      propertyPath: m_FirstSelectEntered.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 842046753479070654, guid: d2d0d0cf4cf5de0439d67a495fea601c, type: 3}
       propertyPath: m_text
       value: Pinchazo
@@ -2750,6 +3045,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4390331229336789794}
     m_Modifications:
+    - target: {fileID: 129106486243369143, guid: d2d0d0cf4cf5de0439d67a495fea601c, type: 3}
+      propertyPath: m_FirstSelectEntered.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 842046753479070654, guid: d2d0d0cf4cf5de0439d67a495fea601c, type: 3}
       propertyPath: m_text
       value: William Brown
@@ -2828,6 +3127,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4390331229336789794}
     m_Modifications:
+    - target: {fileID: 129106486243369143, guid: d2d0d0cf4cf5de0439d67a495fea601c, type: 3}
+      propertyPath: m_FirstSelectEntered.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 842046753479070654, guid: d2d0d0cf4cf5de0439d67a495fea601c, type: 3}
       propertyPath: m_text
       value: Taylor ha podido robar las llaves en el trabajo
@@ -2906,6 +3209,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4390331229336789794}
     m_Modifications:
+    - target: {fileID: 129106486243369143, guid: d2d0d0cf4cf5de0439d67a495fea601c, type: 3}
+      propertyPath: m_FirstSelectEntered.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 842046753479070654, guid: d2d0d0cf4cf5de0439d67a495fea601c, type: 3}
       propertyPath: m_text
       value: El asesino ha pinchado la aguja en el cuello de William
@@ -2984,6 +3291,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4390331229336789794}
     m_Modifications:
+    - target: {fileID: 129106486243369143, guid: d2d0d0cf4cf5de0439d67a495fea601c, type: 3}
+      propertyPath: m_FirstSelectEntered.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 842046753479070654, guid: d2d0d0cf4cf5de0439d67a495fea601c, type: 3}
       propertyPath: m_text
       value: "Parece que alguien ha puesto los hilos a prop\xF3sito"
@@ -3062,6 +3373,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4390331229336789794}
     m_Modifications:
+    - target: {fileID: 129106486243369143, guid: d2d0d0cf4cf5de0439d67a495fea601c, type: 3}
+      propertyPath: m_FirstSelectEntered.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 842046753479070654, guid: d2d0d0cf4cf5de0439d67a495fea601c, type: 3}
       propertyPath: m_text
       value: Taylor ha estado a solas con William
@@ -3140,6 +3455,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4390331229336789794}
     m_Modifications:
+    - target: {fileID: 129106486243369143, guid: d2d0d0cf4cf5de0439d67a495fea601c, type: 3}
+      propertyPath: m_FirstSelectEntered.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 842046753479070654, guid: d2d0d0cf4cf5de0439d67a495fea601c, type: 3}
       propertyPath: m_text
       value: Mark sabe pescar
@@ -3218,6 +3537,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4390331229336789794}
     m_Modifications:
+    - target: {fileID: 129106486243369143, guid: d2d0d0cf4cf5de0439d67a495fea601c, type: 3}
+      propertyPath: m_FirstSelectEntered.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 842046753479070654, guid: d2d0d0cf4cf5de0439d67a495fea601c, type: 3}
       propertyPath: m_text
       value: "Frank podr\xEDa haberse suicidado tras la bancarrota de su empresa"
@@ -3296,6 +3619,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4390331229336789794}
     m_Modifications:
+    - target: {fileID: 129106486243369143, guid: d2d0d0cf4cf5de0439d67a495fea601c, type: 3}
+      propertyPath: m_FirstSelectEntered.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 842046753479070654, guid: d2d0d0cf4cf5de0439d67a495fea601c, type: 3}
       propertyPath: m_text
       value: Mark es el asesino
@@ -3382,6 +3709,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4390331229336789794}
     m_Modifications:
+    - target: {fileID: 129106486243369143, guid: d2d0d0cf4cf5de0439d67a495fea601c, type: 3}
+      propertyPath: m_FirstSelectEntered.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 842046753479070654, guid: d2d0d0cf4cf5de0439d67a495fea601c, type: 3}
       propertyPath: m_text
       value: Pomo
@@ -3460,6 +3791,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4390331229336789794}
     m_Modifications:
+    - target: {fileID: 129106486243369143, guid: d2d0d0cf4cf5de0439d67a495fea601c, type: 3}
+      propertyPath: m_FirstSelectEntered.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 842046753479070654, guid: d2d0d0cf4cf5de0439d67a495fea601c, type: 3}
       propertyPath: m_text
       value: Foto empresarial
@@ -3538,6 +3873,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4390331229336789794}
     m_Modifications:
+    - target: {fileID: 129106486243369143, guid: d2d0d0cf4cf5de0439d67a495fea601c, type: 3}
+      propertyPath: m_FirstSelectEntered.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 842046753479070654, guid: d2d0d0cf4cf5de0439d67a495fea601c, type: 3}
       propertyPath: m_text
       value: Frank es el padre de Minerva
@@ -3616,6 +3955,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4390331229336789794}
     m_Modifications:
+    - target: {fileID: 129106486243369143, guid: d2d0d0cf4cf5de0439d67a495fea601c, type: 3}
+      propertyPath: m_FirstSelectEntered.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 842046753479070654, guid: d2d0d0cf4cf5de0439d67a495fea601c, type: 3}
       propertyPath: m_text
       value: "El asesino podr\xEDa haber usado el hilo de pescar para colocar las
@@ -3695,6 +4038,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4390331229336789794}
     m_Modifications:
+    - target: {fileID: 129106486243369143, guid: d2d0d0cf4cf5de0439d67a495fea601c, type: 3}
+      propertyPath: m_FirstSelectEntered.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 842046753479070654, guid: d2d0d0cf4cf5de0439d67a495fea601c, type: 3}
       propertyPath: m_text
       value: Bancarrota de los Cooper
@@ -3773,6 +4120,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4390331229336789794}
     m_Modifications:
+    - target: {fileID: 129106486243369143, guid: d2d0d0cf4cf5de0439d67a495fea601c, type: 3}
+      propertyPath: m_FirstSelectEntered.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 842046753479070654, guid: d2d0d0cf4cf5de0439d67a495fea601c, type: 3}
       propertyPath: m_text
       value: "El asesino podr\xEDa haber abierto la puerta"
@@ -3851,6 +4202,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4390331229336789794}
     m_Modifications:
+    - target: {fileID: 129106486243369143, guid: d2d0d0cf4cf5de0439d67a495fea601c, type: 3}
+      propertyPath: m_FirstSelectEntered.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 842046753479070654, guid: d2d0d0cf4cf5de0439d67a495fea601c, type: 3}
       propertyPath: m_text
       value: "Mark perder\xEDa la herencia de William"
@@ -3929,6 +4284,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4390331229336789794}
     m_Modifications:
+    - target: {fileID: 129106486243369143, guid: d2d0d0cf4cf5de0439d67a495fea601c, type: 3}
+      propertyPath: m_FirstSelectEntered.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 842046753479070654, guid: d2d0d0cf4cf5de0439d67a495fea601c, type: 3}
       propertyPath: m_text
       value: Taylor esta endeudado con William
@@ -4007,6 +4366,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4390331229336789794}
     m_Modifications:
+    - target: {fileID: 129106486243369143, guid: d2d0d0cf4cf5de0439d67a495fea601c, type: 3}
+      propertyPath: m_FirstSelectEntered.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 842046753479070654, guid: d2d0d0cf4cf5de0439d67a495fea601c, type: 3}
       propertyPath: m_text
       value: "El asesino ha usado la aguja envenenada mientras William dorm\xEDa"
