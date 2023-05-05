@@ -2,8 +2,6 @@ using System.Collections.Generic;
 
 using UnityEngine;
 
-using static TablonPistas;
-
 public class TablonPistas : MonoBehaviour
 {
 	public enum Pistas {
