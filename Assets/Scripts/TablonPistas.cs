@@ -21,6 +21,10 @@ public class TablonPistas : MonoBehaviour
 
 	Dictionary<Pistas, List<Familia>> relacionPistas;
 
+	[Header("Botones finales")]
+	public AbrirBotonFinal botonMinerva;
+	public AbrirBotonFinal botonMark, botonTaylor;
+
 	[Header("Post-its")]
 	public GameObject fotoLago;
 	public GameObject aguja, hilo, llaves, hueco, mark, periodico, veneno, hilo1, cafe,
@@ -588,6 +592,7 @@ public class TablonPistas : MonoBehaviour
 	public void CogeFinal2() {
 		final2.SetActive(true);
 		postItsVisible[(int)Pistas.FINAL2] = true;
+		botonMark.AbrirBoton();
 	}
 
 	public void CogeLlavesUsadas() {
@@ -633,6 +638,7 @@ public class TablonPistas : MonoBehaviour
 	public void CogeFinal3() {
 		final3.SetActive(true);
 		postItsVisible[(int)Pistas.FINAL3] = true;
+		botonTaylor.AbrirBoton();
 	}
 
 	public void CogeVisita() {
@@ -653,6 +659,7 @@ public class TablonPistas : MonoBehaviour
 	public void CogeFinal() {
 		cena.SetActive(true);
 		postItsVisible[(int)Pistas.FINAL] = true;
+		botonMinerva.AbrirBoton();
 	}
 
 	public void CogeFotoLago() {
