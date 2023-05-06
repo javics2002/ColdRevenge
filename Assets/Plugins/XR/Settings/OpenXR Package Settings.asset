@@ -126,7 +126,7 @@ MonoBehaviour:
   nameUi: Mock Runtime
   version: 0.0.2
   featureIdInternal: com.unity.openxr.feature.mockruntime
-  openxrExtensionStrings: XR_UNITY_null_gfx XR_UNITY_android_present
+  openxrExtensionStrings: XR_UNITY_null_gfx
   company: Unity
   priority: 0
   required: 0
@@ -171,8 +171,6 @@ MonoBehaviour:
   company: Unity
   priority: 0
   required: 0
-  targetQuest: 1
-  targetQuest2: 1
 --- !u!114 &-4328914986636723506
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -315,10 +313,8 @@ MonoBehaviour:
   - {fileID: 8137870638188677981}
   - {fileID: 2780649668532864201}
   - {fileID: 4142059095281536839}
-  - {fileID: -6007005580355878827}
   - {fileID: 4146663597975121698}
   - {fileID: -8444996624655610131}
-  - {fileID: 1829014243993472285}
   - {fileID: -4392026685662254015}
   - {fileID: -7281403208700020438}
   - {fileID: 100197959487804049}
@@ -570,7 +566,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1927c045052a06d49a9b21fdcaa26db6, type: 3}
   m_Name: MetaXRFeature Standalone
   m_EditorClassIdentifier: 
-  m_enabled: 0
+  m_enabled: 1
   nameUi: MetaXR Feature
   version: 0.0.1
   featureIdInternal: com.meta.openxr.feature.metaxr
