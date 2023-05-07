@@ -336,6 +336,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa254f5b9224c1745bba7c3b501c37c9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  botonMinerva: {fileID: 0}
+  botonMark: {fileID: 0}
+  botonTaylor: {fileID: 0}
   fotoLago: {fileID: 7766156286607299916}
   aguja: {fileID: 9150532316137536761}
   hilo: {fileID: 9150532315512419928}
